@@ -11,9 +11,8 @@ const Intro = () => {
         <div  className='intro-text'>
             <p>Hi,</p>
             <h2>I'm Atharv Tambekar</h2>
-            <h3>Front-End Developer</h3>
+            <h3>M-E-R-N Stack Developer | Mobile App Developer (React-Native)</h3>
         </div>
-        
     </div>
   );
 }

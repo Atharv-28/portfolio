@@ -5,10 +5,12 @@ body {
 
 .App {
   background-color: #f0f8ff;
-  height: 100vh;
   width: 100%;
 }
 
 .main-content {
-  padding-top: 15vh; /* Adjust this value based on the height of your navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh; 
 }

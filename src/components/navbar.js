@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="hamburger"></div>
         </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#intro">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact-info">Contact Info</a></li>
         </ul>

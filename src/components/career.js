@@ -10,7 +10,7 @@ const Career = () => {
     };
   
     return (
-      <div className="tabs-container">
+      <div id='career' className="tabs-container">
         <div className="tab-buttons">
           <button
             className={`tab-button ${activeTab === 'education' ? 'active' : ''}`}

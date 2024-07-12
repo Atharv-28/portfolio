@@ -33,9 +33,9 @@ const Navbar = () => {
         </div>
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li><a href="#intro">About Me</a></li>
-          <li><a href="#skills">Career</a></li>
+          <li><a href="#career">Career</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact-info">Contact Info</a></li>
+          <li><a href="#contact">Contact Info</a></li>
         </ul>
       </div>
     </nav>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-import '../styles/projectCard.css'; // Import your CSS file for styling
-import ProjectList from '../utils/projectList'; // Import the projects array from your data file
+import '../styles/projectList.css'; 
+import ProjectList from '../utils/projectList';
 
 const ProjectsFlex = () => {
   return (

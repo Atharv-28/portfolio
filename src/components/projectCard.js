@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import ico from "../assets/projects/FocusTimeIco.png";
+import "../styles/projectCard.css"
 
 const ProjectCard = ({ project }) => {
   const ico = project.icon;

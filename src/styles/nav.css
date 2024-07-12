@@ -90,6 +90,8 @@
     margin-top: 5px;
     background-color: #f0f8ff;
   }
+
+  
   
   @media (max-width: 768px) {
     .navbar-container {
@@ -121,6 +123,9 @@
   
     .nav-links.open {
       display: flex;
+    }
+    .navbar.scrolled .nav-links.open{
+      background-color: #4070f4;
     }
   }
   

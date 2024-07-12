@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/career.css'; // Make sure to create this CSS file
+import ProjectsFlex from './projectFlex';
 
 const Career = () => {
     const [activeTab, setActiveTab] = useState('education');
@@ -38,7 +39,7 @@ const Career = () => {
           {activeTab === 'projects' && (
             <div className='edu'>
               <h2>Projects</h2>
-              <p>Details about projects...</p>
+                <ProjectsFlex />
             </div>
           )}
         </div>

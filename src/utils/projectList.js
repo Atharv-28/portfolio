@@ -1,4 +1,4 @@
-const projects = [
+const ProjectList = [
     {
       projectName: "News Buzz",
       icon: "../assets/projects/newsBuzzIco.ico",
@@ -100,3 +100,5 @@ const projects = [
     }
   ];
   
+
+  export default ProjectList;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/career.css'; // Make sure to create this CSS file
+import '../styles/career.css'; 
 import ProjectsFlex from './projectFlex';
 
 const Career = () => {
@@ -33,6 +33,12 @@ const Career = () => {
               <div className='degree'>
                 <h3>Sanjay Ghodawat Polytechnic</h3>
                 <h4>Diploma in Computer Science & Engineering</h4>
+                <p>2021-2024</p>
+              </div>
+              <div className='degree'>
+                <h3>Sanjay Ghodawat Institute</h3>
+                <h4>B.Tech in Computer Science & Engineering</h4>
+                <p>2024-Present</p>
               </div>
             </div>
           )}

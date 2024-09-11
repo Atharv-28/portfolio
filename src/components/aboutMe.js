@@ -35,7 +35,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <a className="about-me-button" href="https://1drv.ms/b/s!AkYeXXs8-OXi4CPfzBYeONEQGCIi?e=JkzCqX" target="_blank">Resume</a>
+      <a className="about-me-button" href="https://1drv.ms/b/s!AkYeXXs8-OXi4CUCYx9LE9M6mOMl?e=99hnJa" target="_blank">Resume</a>
     </div>
   );
 };

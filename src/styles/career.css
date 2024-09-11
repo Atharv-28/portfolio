@@ -6,6 +6,7 @@
     padding: 20px;
     border-radius: 15px;
     width: 80vw;
+    background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   
@@ -61,6 +62,7 @@
     align-items: center;
   }
   .degree{
+    background-color:#fff;
     border-radius: 50px;
     width: 50%;
     height: max-content;

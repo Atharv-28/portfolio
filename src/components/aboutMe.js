@@ -22,7 +22,7 @@ const AboutMe = () => {
           <div className="about-me-details">
             <div className="about-me-detail">
               <span className="about-me-icon">👤</span>
-              <span className="about-me-text">18 years</span>
+              <span className="about-me-text">19 years</span>
             </div>
             <div className="about-me-detail">
               <span className="about-me-icon">🗣️</span>

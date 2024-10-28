@@ -5,9 +5,9 @@ import ProjectList from '../utils/projectList';
 
 const ProjectsFlex = () => {
   return (
-    <div className="projects-list">
+    <div className='proFlex'>
       {ProjectList.map((project, index) => (
-        <ProjectCard key={index} project={project} />
+        <ProjectCard className="project-card" key={index} project={project} />
       ))}
     </div>
   );

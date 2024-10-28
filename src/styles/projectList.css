@@ -1,20 +1,16 @@
-.project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    .project-list {
-      grid-template-columns: 1fr;
-    }
-  }
   
   .project-card {
+    width: 40%;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .proFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .project-icon {
@@ -45,6 +41,10 @@
   }
   
   .project-link:hover {
-    text-decoration: underline;
-  }
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;  }
   
+    @media screen and (max-width: 600px) {
+      .project-card {
+        width: 95%;
+      }
+    }

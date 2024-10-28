@@ -6,8 +6,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease;
+    border: 2px solid green;
   }
-  
+
   .project-card:hover {
     transform: translateY(-5px);
   }
@@ -19,18 +20,13 @@
     margin-bottom: 10px;
   }
   
-  .project-name {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
   .project-link {
     color: #4070f4;
     text-decoration: none;
     font-size: 0.9rem;
   }
-  
-  .project-link:hover {
-    text-decoration: underline;
+
+  .project-details p {
+    text-align: justify;
+    font-size: 0.9rem;
   }
-  

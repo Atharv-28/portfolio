@@ -6,9 +6,12 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease;
-    border: 2px solid green;
   }
 
+  .project-heading{
+    display: flex;
+    gap: 5%;
+  }
   .project-card:hover {
     transform: translateY(-5px);
   }
@@ -18,6 +21,11 @@
     height: 50px;
     border-radius: 50%;
     margin-bottom: 10px;
+  }
+
+  .project-links{
+    width: max-content;
+    justify-self: flex-end;
   }
   
   .project-link {

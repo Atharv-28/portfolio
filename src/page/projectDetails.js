@@ -25,11 +25,13 @@ const ProjectDetails = () => {
 
   return (
     <div className="project-details-container">
+      <div className='project-details-heading'>
       <img className='project-ico' src={project.icon} alt={`${project.projectName} Icon`} />
       <h2>{project.projectName}</h2>
+      </div>
       <div className="project-description">
         <p>{project.description}</p>
-        <p>Tech Stack used: {project.info}</p>
+        <p className='tech-stack'>Tech Stack used: {project.info}</p>
         <h3>Snapshots</h3>
         {project.snapshots.length > 0 ? (
           <div className="slideshow-container">
@@ -49,7 +51,7 @@ const ProjectDetails = () => {
         )}
         {project.liveLink && (
           <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-            Live Demo
+            Live Demo🔗
           </a>
         )}
       </div>

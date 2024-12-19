@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/career.css";
 import ProjectsFlex from "./projectFlex";
+import EduFlex from "./eduFlex";
 
 const Career = () => {
   const [activeTab, setActiveTab] = useState("education");
@@ -24,22 +25,19 @@ const Career = () => {
         >
           Projects
         </button>
+        <button
+          className={`tab-button ${activeTab === "projects" ? "active" : ""}`}
+          onClick={() => handleTabClick("projects")}
+        >
+          Experience
+        </button>
       </div>
 
       <div className="tab-content">
         {activeTab === "education" && (
           <div className="edu">
             <h2>Education</h2>
-            <div className="degree">
-              <h3>Sanjay Ghodawat Polytechnic</h3>
-              <h4>Diploma in Computer Science & Engineering</h4>
-              <p>2021-2024</p>
-            </div>
-            <div className="degree">
-              <h3>Sanjay Ghodawat Institute</h3>
-              <h4>B.Tech in Computer Science & Engineering</h4>
-              <p>2024-Present</p>
-            </div>
+            <EduFlex className="edu-flex" />
           </div>
         )}
         {activeTab === "projects" && (

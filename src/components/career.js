@@ -26,8 +26,8 @@ const Career = () => {
           Projects
         </button>
         <button
-          className={`tab-button ${activeTab === "projects" ? "active" : ""}`}
-          onClick={() => handleTabClick("projects")}
+          className={`tab-button ${activeTab === "experience" ? "active" : ""}`}
+          onClick={() => handleTabClick("experience")}
         >
           Experience
         </button>
@@ -44,6 +44,12 @@ const Career = () => {
           <div className="edu">
             <h2>Projects</h2>
             <ProjectsFlex className="project-flex" />
+          </div>
+        )}
+        {activeTab === "experience" && (
+          <div className="edu">
+            <h2>Experience</h2>
+            <p>Fresher..</p>
           </div>
         )}
       </div>

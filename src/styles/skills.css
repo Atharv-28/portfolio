@@ -15,7 +15,11 @@
   
   .tech-stack-marquee {
     display: flex;
-    animation: scroll 40s linear infinite;
+    animation: scroll 10s linear infinite;
+  }
+
+  .tech-stack-marquee:hover {
+    animation: scroll 25s linear infinite;
   }
   
   .tech-stack-item {

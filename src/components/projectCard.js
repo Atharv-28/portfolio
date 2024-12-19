@@ -28,16 +28,6 @@ const ProjectCard = ({ project }) => {
             >
               View Details
             </Link>
-            {project.gitLink && (
-              <a
-                href={project.gitLink}
-                className="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            )}
           </div>
         </div>
       </Link>

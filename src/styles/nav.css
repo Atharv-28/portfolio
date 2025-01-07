@@ -33,15 +33,36 @@
   }
   
   .menu-icon {
-    display: none;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+  }
+  
+  .hamburger, .ham-child {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .ham-child {
+    position: absolute;
+    opacity: 0;
   }
   
   .menu-icon.open .hamburger {
     transform: rotate(45deg);
   }
   
+  .menu-icon.open .ham-child {
+    transform: rotate(-45deg);
+    opacity: 1;
+  }
+
   .menu-icon.open .hamburger::before {
     transform: rotate(90deg) translateX(-10px);
   }
@@ -49,8 +70,16 @@
   .menu-icon.open .hamburger::after {
     transform: rotate(90deg) translateX(10px);
   }
+
+  .menu-icon.open .ham-child::before {
+    transform: rotate(90deg) translateX(-10px);
+  }
   
-  .hamburger, .hamburger::before, .hamburger::after {
+  .menu-icon.open .ham-child::after {
+    transform: rotate(90deg) translateX(10px);
+  }
+  
+  .hamburger, .ham-child, .hamburger::before, .hamburger::after {
     content: '';
     width: 25px;
     height: 3px;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import "../styles/nav.css";
 
 const Navbar = () => {
@@ -18,24 +18,36 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
         <h1 className="navbar-title">Atharv Tambekar</h1>
-        <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+        <div
+          className={`menu-icon ${isOpen ? "open" : ""}`}
+          onClick={toggleMenu}
+        >
           <div className="hamburger"></div>
+          <div className="ham-child"></div>
         </div>
-        <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><a href="#intro">About Me</a></li>
-          <li><a href="#career">Career</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact Info</a></li>
+        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
+          <li>
+            <a href="#intro">About Me</a>
+          </li>
+          <li>
+            <a href="#career">Career</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Info</a>
+          </li>
         </ul>
       </div>
     </nav>

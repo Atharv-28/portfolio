@@ -42,3 +42,9 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .tech-stack-container {
+      width: 90vw;
+      border-radius: 50px;
+    }
+  }

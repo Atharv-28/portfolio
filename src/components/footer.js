@@ -17,7 +17,7 @@ const Footer = () => {
             <FaEnvelope className="social-icon" />
           </a>
         </div>
-        <p className="footer-text">© 2024 ATHARV MAYUR TAMBEKAR. All rights reserved.</p>
+        <p className="footer-text">© 2024-25 ATHARV MAYUR TAMBEKAR. All rights reserved.</p>
       </div>
     </footer>
   );

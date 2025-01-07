@@ -11,6 +11,9 @@
   }
   
   .tab-buttons {
+    padding-left: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;

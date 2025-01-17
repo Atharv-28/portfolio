@@ -49,7 +49,9 @@ const Career = () => {
         {activeTab === "experience" && (
           <div className="edu">
             <h2>Experience</h2>
-            <p>Fresher..</p>
+            <p>NULLCLASS</p>
+            <p>Dec 2024 - Jan 2025</p>
+            <p>Web-developer Intern</p>
           </div>
         )}
       </div>

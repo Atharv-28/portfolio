@@ -49,4 +49,13 @@
         width: 25vh;
         height: 25vh;
       }
+      .intro-text h2 {
+        font-size: 1.5rem;
+      }
+      .intro-text h3 {
+        font-size: 1.2rem;
+      }
+      .intro-text p {
+        font-size: 1.1rem;
+      }
   }

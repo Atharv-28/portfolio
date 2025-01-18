@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    border-radius: 45px;
-  }
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px, rgba(33, 35, 38, 0.1) 0px -10px 10px -10px;
+}
   
   
 
@@ -40,7 +40,7 @@
   .tab-button.active {
     font-weight: bold;
     color: #4070f4; 
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: #4070f4;
   }
   
@@ -106,7 +106,6 @@
   }
 
   .project-flex{
-    border: 2px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -133,5 +132,8 @@
     }
     .tab-button{
       font-size: 1.1rem;
+    }
+    .edu h2{
+      font-size: 1.2rem;
     }
   }

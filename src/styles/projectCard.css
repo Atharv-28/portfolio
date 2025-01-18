@@ -38,3 +38,10 @@
     text-align: justify;
     font-size: 0.9rem;
   }
+
+  @media screen and (max-width: 600px) {
+    .project-description {
+      font-size: 0.8rem;
+    }
+    
+  }

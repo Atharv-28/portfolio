@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/aboutme.css";
-
+import TranslateIcon from "@mui/icons-material/Translate";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import PersonIcon from "@mui/icons-material/Person";
 const AboutMe = () => {
   return (
     <div className="about-me-container">
@@ -21,21 +23,33 @@ const AboutMe = () => {
         <div className="about-me-right">
           <div className="about-me-details">
             <div className="about-me-detail">
-              <span className="about-me-icon">👤</span>
-              <span className="about-me-text">19 years</span>
+              <span className="about-me-text">
+                <PersonIcon fontSize="large" style={{ color: "#4070f4" }}></PersonIcon>
+                19 years
+              </span>
             </div>
             <div className="about-me-detail">
-              <span className="about-me-icon">🗣️</span>
-              <span className="about-me-text">English, Marathi, Hindi</span>
+              <span className="about-me-text">
+                <TranslateIcon fontSize="large" style={{ color: "#4070f4" }}></TranslateIcon>
+                English, Marathi, Hindi
+              </span>
             </div>
             <div className="about-me-detail">
-              <span className="about-me-icon">📍</span>
-              <span className="about-me-text">Kolhapur, India</span>
+              <span className="about-me-text">
+                <LocationOnIcon fontSize="large" style={{ color: "#4070f4" }}></LocationOnIcon>
+                Kolhapur, Maharashtra, India
+              </span>
             </div>
           </div>
         </div>
       </div>
-      <a className="about-me-button" href="https://1drv.ms/b/s!AkYeXXs8-OXi4CUCYx9LE9M6mOMl?e=99hnJa" target="_blank">Resume</a>
+      <a
+        className="about-me-button"
+        href="https://1drv.ms/b/s!AkYeXXs8-OXi4CUCYx9LE9M6mOMl?e=99hnJa"
+        target="_blank"
+      >
+        Resume
+      </a>
     </div>
   );
 };

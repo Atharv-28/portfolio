@@ -7,10 +7,6 @@ const ProjectCard = ({ project }) => {
   console.log(ico);
   return (
     <div className="project-card">
-      <Link
-        to={`/project-details/${project.projectName}`}
-        className="project-link"
-      >
         <div className="project-heading">
           <img
             src={ico}
@@ -30,7 +26,6 @@ const ProjectCard = ({ project }) => {
             </Link>
           </div>
         </div>
-      </Link>
     </div>
   );
 };

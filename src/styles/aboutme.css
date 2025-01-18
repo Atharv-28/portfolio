@@ -66,6 +66,8 @@
   
   .about-me-text {
     font-size: 1rem;
+    display: flex;
+    align-items: center;
   }
   
   .about-me-button {

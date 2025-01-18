@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/career.css";
 import ProjectsFlex from "./projectFlex";
 import EduFlex from "./eduFlex";
+import ExpAccordian from "./expAccordian";
 
 const Career = () => {
   const [activeTab, setActiveTab] = useState("education");
@@ -49,9 +50,7 @@ const Career = () => {
         {activeTab === "experience" && (
           <div className="edu">
             <h2>Experience</h2>
-            <p>NULLCLASS</p>
-            <p>Dec 2024 - Jan 2025</p>
-            <p>Web-developer Intern</p>
+            <ExpAccordian />
           </div>
         )}
       </div>

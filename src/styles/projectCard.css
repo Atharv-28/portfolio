@@ -6,12 +6,12 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease;
-    animation: fadeIn linear 0.5s;
+    animation: ScaleIn linear 0.5s;
     animation-timeline: view();
     animation-range: entry 0 cover 35%;
   }
 
-  @keyframes fadeIn {
+  @keyframes ScaleIn {
     from {
       opacity: 0;
       scale: 0.5;

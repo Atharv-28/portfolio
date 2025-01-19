@@ -4,13 +4,19 @@ import Intro from "../components/intro";
 import AboutMe from "../components/aboutMe";
 import Skills from "../components/skills";
 import Footer from "../components/footer";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import "../App.css";
 
 const HomePage = () => {
   return (
     <div className="home">
-      <Fade bottom>
+              <Intro />
+              <AboutMe />
+              <Career />
+              <Skills />
+              <Footer />
+
+     {/* <Fade bottom>
         <Intro />
       </Fade>
       <Fade bottom>
@@ -24,7 +30,7 @@ const HomePage = () => {
       </Fade>
       <Fade bottom>
         <Footer />
-      </Fade>
+      </Fade>*/}
     </div>
   );
 };

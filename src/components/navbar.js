@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "../styles/nav.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -24,10 +26,22 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleNavigation = (sectionId) => {
+    navigate("/");
+    setTimeout(() => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+  };
+
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="navbar-container">
-        <h1 className="navbar-title">Atharv Tambekar</h1>
+        <h1 className="navbar-title" onClick={() => navigate("/")}>
+          Atharv Tambekar
+        </h1>
         <div
           className={`menu-icon ${isOpen ? "open" : ""}`}
           onClick={toggleMenu}
@@ -37,16 +51,24 @@ const Navbar = () => {
         </div>
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li>
-            <a href="#intro">About Me</a>
+            <Link to="/" onClick={() => handleNavigation("intro")}>
+              About Me
+            </Link>
           </li>
           <li>
-            <a href="#career">Career</a>
+            <Link to="/" onClick={() => handleNavigation("career")}>
+              Career
+            </Link>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <Link to="/" onClick={() => handleNavigation("skills")}>
+              Skills
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact Info</a>
+            <Link to="/" onClick={() => handleNavigation("contact")}>
+              Contact Info
+            </Link>
           </li>
         </ul>
       </div>

@@ -77,6 +77,8 @@
     color: #333;
   }
   
+/*           EDUFLEX BEGINS HERE       */
+
   .edu{
     width: 100%;
     display: flex;
@@ -107,6 +109,9 @@
     }
 }
 
+.edu-card:hover{
+  transform: translateY(-5px);
+}
   .edu-logo{
     padding: 20px;
     width: 15%;
@@ -122,6 +127,7 @@
     border-radius: 50px;
     background-color:#fff;
     width: 80%;
+    transition: transform 0.3s ease;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
 

@@ -1,5 +1,5 @@
 import React from "react";
-
+// CSS is in same file of career.js
 const eduFlex = () => {
   return (
     <div className="edu-flex">

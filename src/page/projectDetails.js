@@ -1,4 +1,3 @@
-// src/pages/ProjectDetails.js
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ProjectList from '../utils/projectList';

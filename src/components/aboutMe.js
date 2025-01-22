@@ -5,10 +5,6 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PersonIcon from "@mui/icons-material/Person";
 
 const AboutMe = () => {
-
-  const openPdfView = () => {
-    window.open("https://drive.google.com/file/d/1RVa44GGdSF_ERz6i0ruUreEA9B7hq2m0/view?usp=sharing", "_blank");
-  };
   return (
     <div className="about-me-container">
       <h2 className="about-me-title">About me</h2>
@@ -48,12 +44,13 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <button
+      <a
         className="about-me-button"
-        onClick={openPdfView}
+        href="https://drive.google.com/file/d/1RVa44GGdSF_ERz6i0ruUreEA9B7hq2m0/view?usp=sharing"
+        target="_blank"
       >
         Resume
-      </button>
+      </a>
     </div>
   );
 };

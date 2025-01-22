@@ -28,7 +28,7 @@
   }
   .project-card:hover {
     transform: translateY(-5px);
-  }
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  }
   
   .project-icon {
     width: 50px; 

@@ -3,7 +3,12 @@ import "../styles/aboutme.css";
 import TranslateIcon from "@mui/icons-material/Translate";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PersonIcon from "@mui/icons-material/Person";
+
 const AboutMe = () => {
+
+  const openPdfView = () => {
+    window.open("https://drive.google.com/file/d/1RVa44GGdSF_ERz6i0ruUreEA9B7hq2m0/view?usp=sharing", "_blank");
+  };
   return (
     <div className="about-me-container">
       <h2 className="about-me-title">About me</h2>
@@ -43,13 +48,12 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <a
+      <button
         className="about-me-button"
-        href="https://1drv.ms/b/s!AkYeXXs8-OXi4CUCYx9LE9M6mOMl?e=99hnJa"
-        target="_blank"
+        onClick={openPdfView}
       >
         Resume
-      </a>
+      </button>
     </div>
   );
 };

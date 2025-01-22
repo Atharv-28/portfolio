@@ -7,6 +7,9 @@ import "../styles/expAccordian.css";
 const ExpAccordian = () => {
   return (
     <div className="exp-accordian-container">
+      <div className="exp-accordian-effect">
+
+      
       <Accordion className="exp-accordian">
         <AccordionSummary>
           <div className="exp-heading-container">
@@ -50,6 +53,7 @@ const ExpAccordian = () => {
           </ul>
         </AccordionDetails>
       </Accordion>
+      </div>
     </div>
   );
 };

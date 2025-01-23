@@ -28,11 +28,12 @@
   
   .tech-stack-marquee {
     display: flex;
+    width: 50vw;
     animation: scroll 10s linear infinite;
   }
 
   .tech-stack-marquee:hover {
-    animation: scroll 25s linear infinite;
+    animation: scroll 15s linear infinite;
   }
   
   .tech-stack-item {

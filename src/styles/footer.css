@@ -19,6 +19,11 @@
     margin-bottom: 10px;
   }
   
+  .footer-text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
   .social-icon {
     color: white;
     font-size: 24px;
@@ -30,8 +35,3 @@
   .social-icon:hover {
     color: black; 
   }
-  
-  .footer-text {
-    font-size: 14px;
-  }
-  

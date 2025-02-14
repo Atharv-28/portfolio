@@ -8,6 +8,22 @@
     width: 99vw;
     bottom: 0;
   }
+
+  .footer-waves {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .wave {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100px;
+  }
   
   .footer-container {
     display: flex;

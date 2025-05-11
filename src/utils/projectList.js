@@ -15,13 +15,16 @@ const ProjectList = [
   },
   {
     projectName: "Yog-fit",
-    icon: "../assets/projects/yogFitIco.png",
+    icon: "../assets/projects/yogFit/yogFitIco.png",
     description:
       "Yog-fit is my final year capstone project. This application promotes fitness and wellness through yoga. It provides users with yoga routines, tracking their progress and offering personalized recommendations. Built with React Native, it aims to make yoga accessible and enjoyable.",
     info: "React-Native, Firebase",
     gitLink: "https://github.com/Atharv-28/Yog-fit",
-    snapshots: ["../assets/projects/yf1.jpg", "../assets/projects/yf2.jpg"],
-    liveLink: "Genrate APK from GitHub",
+    snapshots: [
+      "../assets/projects/yogFit/yf1.jpg",
+      "../assets/projects/yogFit/yf2.jpg",
+    ],
+    liveLink: "",
   },
   {
     projectName: "Twiller",
@@ -39,15 +42,19 @@ const ProjectList = [
   },
   {
     projectName: "Eco-Cart",
-    icon: "../assets/projects/ecoCartIco.png",
+    icon: "../assets/projects/ecoCart/logo.jpg",
     description:
-      "Eco-Cart is an e-commerce platform focused on eco-friendly products. It allows users to browse and purchase sustainable items, promoting a greener lifestyle. Built with React, it features a modern design and user-friendly interface for an enjoyable shopping experience.",  
+      "Eco-Cart is an e-commerce platform focused on eco-friendly products. It allows users to browse and purchase sustainable items, promoting a greener lifestyle. Built with React, it features a modern design and user-friendly interface for an enjoyable shopping experience.",
     info: "React.Js, React Native, Express.Js(Node.JS), Flask(Python - web scrapping), Firebase",
     gitLink: "",
     snapshots: [
-      "../assets/projects/ec1.png",
-      "../assets/projects/ec2.png",
-      "../assets/projects/ec3.png",
+      "../assets/projects/ecoCart/ss1.png",
+      "../assets/projects/ecoCart/ss2.png",
+      "../assets/projects/ecoCart/ss3.png",
+      "../assets/projects/ecoCart/ss4.png",
+      "../assets/projects/ecoCart/ms1.jpg",
+      "../assets/projects/ecoCart/ms2.jpg",
+      "../assets/projects/ecoCart/ms3.jpg",
     ],
     liveLink: "https://eco-cart-frontend.vercel.app/",
   },
@@ -115,7 +122,7 @@ const ProjectList = [
       "../assets/projects/gz3.png",
     ],
     liveLink: "https://atharv-28.github.io/Gadget-Zone/index.html",
-  }
+  },
 ];
 
 export default ProjectList;

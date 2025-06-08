@@ -25,7 +25,7 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
@@ -101,10 +101,11 @@
   flex-direction: row;
   list-style: none;
   margin: 0;
-  margin-left: -2px;
+  margin-left: -22vw;
   padding: 0;
   justify-content: center;
-  width: 50vw;
+  width: max-content;
+  align-self: center;
 }
 
 .nav-links li {
@@ -126,6 +127,12 @@
   display: block;
   margin-top: 5px;
   background-color: #f0f8ff;
+}
+
+@media (min-width: 2000px) {
+  .nav-links {
+    margin-left: -30vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -150,8 +157,13 @@
     top: 100%;
     left: 0;
     padding: 1rem 0;
+    margin-left: 0;
     text-align: center;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+
+  .nav-but {
+    display: none;
   }
 
   .nav-links li {

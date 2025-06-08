@@ -5,7 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*
+body::-webkit-scrollbar {
+  width: 32px;
+  padding-top: 100px;
+  background:  url('./trackPNG.png') no-repeat;
+  background-size: contain;
+  background-color: #f0f8ff;
+}
+body::-webkit-scrollbar-track {
+  background: url('./trackPNG1.png') repeat;
+  background-size: contain;
+}
+body::-webkit-scrollbar-track-piece
+{
+display:none;
+}
+body::-webkit-scrollbar-thumb {
+  margin-top: 50px;
+  background: url('./scrollSpider.png') no-repeat;
+  background-size:contain;
+  border-radius: 6px;
+  height: 20px;
+}*/
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

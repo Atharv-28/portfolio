@@ -1,7 +1,8 @@
-// src/pages/ProjectDetails.js
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ProjectList from '../utils/projectList'; 
+import ProjectList from '../utils/projectList';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew'; 
 import "../styles/projectDetails.css";
 
 const ProjectDetails = () => {
@@ -47,11 +48,13 @@ const ProjectDetails = () => {
         {project.gitLink && (
           <a href={project.gitLink} target="_blank" rel="noopener noreferrer">
             GitHub
+            <GitHubIcon />
           </a>
         )}
         {project.liveLink && (
           <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-            Live Demo🔗
+            Live Demo
+            <OpenInNewIcon />
           </a>
         )}
       </div>

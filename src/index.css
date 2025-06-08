@@ -5,23 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: overlay;
-  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
+}
+
+/*
+body::-webkit-scrollbar {
   width: 32px;
   padding-top: 100px;
   background:  url('./trackPNG.png') no-repeat;
   background-size: contain;
   background-color: #f0f8ff;
-  /* background: red; */
 }
 body::-webkit-scrollbar-track {
   background: url('./trackPNG1.png') repeat;
   background-size: contain;
-  /* background: red; */
 }
 body::-webkit-scrollbar-track-piece
 {
@@ -33,7 +34,7 @@ body::-webkit-scrollbar-thumb {
   background-size:contain;
   border-radius: 6px;
   height: 20px;
-}
+}*/
 
 
 code {

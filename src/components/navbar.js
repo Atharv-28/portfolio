@@ -61,6 +61,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/" onClick={() => handleNavigation("contact")}>
+              Achievements
+            </Link>
+          </li>
+          <li>
             <Link to="/" onClick={() => handleNavigation("skills")}>
               Skills
             </Link>
@@ -71,6 +76,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        <a
+          className="about-me-button nav-but"
+          href="https://drive.google.com/file/d/1RVa44GGdSF_ERz6i0ruUreEA9B7hq2m0/view?usp=sharing"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
     </nav>
   );

@@ -75,6 +75,16 @@
   .intro-text p {
     font-size: 1.1rem;
   }
+
+  .intro-text{
+    width: 60vw;
+  }
+
+  .div-rotating-text{
+    width: 70vw;
+    text-align: center;
+    align-self: center;
+  }
 }
 
 .social-icon {

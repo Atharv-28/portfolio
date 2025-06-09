@@ -1,4 +1,3 @@
-import React from "react";
 import introImg from "./prof.png";
 import BlurText from "./BlurText";
 import SplitText from "./SplitText";
@@ -14,7 +13,7 @@ const Intro = () => {
   return (
     <div id="intro" className="intro">
       <div className="intro-image">
-        <img className="img-prof" src={introImg} />
+        <img className="img-prof" src={introImg} alt="prof" />
       </div>
       <div className="intro-text">
         <SplitText
@@ -46,10 +45,10 @@ const Intro = () => {
             ]}
             mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
             staggerFrom={"last"}
-            initial={{ y: "100%" }}
+            initial={{ y: "400%" }}
             animate={{ y: 0 }}
             className=" skill-text"
-            exit={{ y: "-120%" }}
+            exit={{ y: "-400%" }}
             staggerDuration={0.025}
             splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
             transition={{ type: "spring", damping: 30, stiffness: 400 }}

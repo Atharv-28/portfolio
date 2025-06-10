@@ -28,6 +28,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 0 5vw 0 5vw;
 }
 
 .navbar-title {
@@ -101,7 +102,7 @@
   flex-direction: row;
   list-style: none;
   margin: 0;
-  margin-left: -22vw;
+  margin-left: -15vw;
   padding: 0;
   justify-content: center;
   width: max-content;
@@ -133,7 +134,7 @@
 .nav-links a {
   color: black;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -149,7 +150,7 @@
 
 @media (min-width: 2000px) {
   .nav-links {
-    margin-left: -30vw;
+    margin-left: -28vw;
   }
 }
 

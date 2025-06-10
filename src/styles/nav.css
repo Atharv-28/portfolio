@@ -28,6 +28,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 0 5vw 0 5vw;
 }
 
 .navbar-title {
@@ -101,7 +102,7 @@
   flex-direction: row;
   list-style: none;
   margin: 0;
-  margin-left: -22vw;
+  margin-left: -15vw;
   padding: 0;
   justify-content: center;
   width: max-content;
@@ -110,12 +111,30 @@
 
 .nav-links li {
   margin: 0 1rem;
+  position: relative; /* Ensure the pseudo-element is positioned relative to the parent */
+  padding: 5px;
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #4070f4;
+  transition: width 0.3s ease; /* Animation for border completion */
+}
+
+.nav-links li:hover::after {
+  /* border-bottom: 3px solid #4070f4; */
+  width: 100%; /* Expand the border on hover */
 }
 
 .nav-links a {
   color: black;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -131,7 +150,7 @@
 
 @media (min-width: 2000px) {
   .nav-links {
-    margin-left: -30vw;
+    margin-left: -28vw;
   }
 }
 

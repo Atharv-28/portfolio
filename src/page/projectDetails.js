@@ -43,7 +43,27 @@ const ProjectDetails = () => {
       </div>
       <div className="project-description">
         <p>{project.description}</p>
-        <p className="tech-stack">Tech Stack used: {project.info}</p>
+        <p className="tech-stack">Tech Stack </p>
+        <div>
+          {project.info && Object.keys(project.info).length > 0 ? (
+            Object.entries(project.info).map(([key, value], index) => (
+              <div key={index} className="tech-item">
+                {typeof value === "string" ? (
+                  value.split(",").map((item, i) => (
+                    <span key={i} className="tech-span">
+                      {item.trim()}
+                    </span>
+                  ))
+                ) : (
+                  <span className="tech-span">{value}</span>
+                )}
+              </div>
+            ))
+          ) : (
+            <p>No tech stack available.</p>
+          )}
+        </div>
+
         <h3>Snapshots</h3>
         {project.snapshots.length > 0 ? (
           <div className="slideshow-container">

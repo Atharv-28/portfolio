@@ -1,12 +1,32 @@
 .project-details-container{
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 70vw;
+    margin-top: 5vh;
     height: max-content;
     justify-content: center;
+    background-color: #fff;
     padding: 10vh;
-    margin-bottom: 10vh; /* to extend background color to full screen*/
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.project-details-breadcrumbs{
+  margin-bottom: 5vh;
+}
+
+.project-details-breadcrumbs a{
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.project-details-breadcrumbs a:hover{
+    font-weight: bold;
+}
+
+.project-details-breadcrumbs a span{
+    color: #000;
 }
 
 .project-details-heading{

@@ -11,7 +11,7 @@ const ProjectList = [
       "../assets/projects/tw2.png",
       "../assets/projects/tw3.png",
     ],
-    liveLink: "NOT LIVE YET",
+    liveLink: "",
   },
   {
     projectName: "Yog-fit",
@@ -86,7 +86,7 @@ const ProjectList = [
     info: ["HTML, CSS, JavaScript, Express.JS, MongoDB"],
     gitLink: "https://github.com/Atharv-28/To-Do-List",
     snapshots: ["../assets/projects/todo1.png"],
-    liveLink: "NA",
+    liveLink: "https://atharv-28.github.io/To-Do-List/",
   },
   {
     projectName: "Water Level",
@@ -96,7 +96,7 @@ const ProjectList = [
     info: ["Iot, c++, Arduino, Firebase, React-Native"],
     gitLink: "https://github.com/Atharv-28/WaterLevel",
     snapshots: [],
-    liveLink: "APK available on GitHub",
+    liveLink: "",
   },
 
   {
@@ -107,7 +107,7 @@ const ProjectList = [
     info: ["React-Native"],
     gitLink: "https://github.com/Atharv-28/FocusTime",
     snapshots: [],
-    liveLink: "Genrate APK from GitHub",
+    liveLink: "",
   },
   {
     projectName: "Gadget Zone",

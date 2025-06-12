@@ -135,3 +135,46 @@
   background-color: #007bff;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .project-details-container {
+    width: 70vw;
+    padding: 3vh;
+  }
+
+  .project-details-heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-description p{
+    font-size: 0.8rem;
+    text-align: justify ;
+  }
+  .tech-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .project-ico {
+    width: 80px;
+    height: 80px;
+  }
+
+  .snapshot-image {
+    max-height: 40vh;
+    min-height: 10vh;
+  }
+
+  .project-links a {
+    font-size: 0.9rem;
+  }
+
+  .prev,
+  .next {
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+}

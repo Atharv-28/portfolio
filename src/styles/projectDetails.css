@@ -138,8 +138,8 @@
 
 @media only screen and (max-width: 600px) {
   .project-details-container {
-    width: 90vw;
-    padding: 5vh;
+    width: 70vw;
+    padding: 3vh;
   }
 
   .project-details-heading {
@@ -148,7 +148,7 @@
   }
 
   .project-description p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: justify ;
   }
   .tech-item {
@@ -165,6 +165,10 @@
   .snapshot-image {
     max-height: 40vh;
     min-height: 10vh;
+  }
+
+  .project-links a {
+    font-size: 0.9rem;
   }
 
   .prev,

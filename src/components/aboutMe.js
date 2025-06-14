@@ -46,7 +46,7 @@ const AboutMe = () => {
       </div>
       <a
         className="about-me-button"
-        href="https://drive.google.com/file/d/1RVa44GGdSF_ERz6i0ruUreEA9B7hq2m0/view?usp=sharing"
+        href="https://drive.google.com/file/d/1riskiaAmLFIsJKH9xXSfZzJq0fLyXIqh/view?usp=sharing"
         target="_blank"
       >
         Resume

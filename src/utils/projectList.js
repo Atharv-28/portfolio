@@ -1,19 +1,5 @@
 const ProjectList = [
   {
-    projectName: "Thought-Wave",
-    icon: "../assets/projects/thoughtWave.png",
-    description:
-      "I created Thought-Wave as a platform for sharing thoughts and ideas. This social media app allows users to post, like, and comment on thoughts, fostering a community of like-minded individuals. It has features like forgot password with opt verification, fully functional tranding page and algorithm recommended feed according to user's preference. It was built using React for frontend, Express.Js for backend, MongoDB as database and Firebase for authentication, providing a seamless user experience.",
-    info: ["React.Js, Express.Js, MongoDB, Firebase, Node.Js"],
-    gitLink: "https://github.com/Atharv-28/ThoughtWave",
-    snapshots: [
-      "../assets/projects/tw1.png",
-      "../assets/projects/tw2.png",
-      "../assets/projects/tw3.png",
-    ],
-    liveLink: "",
-  },
-  {
     projectName: "Yog-fit",
     icon: "../assets/projects/yogFit/yogFitIco.png",
     description:
@@ -25,20 +11,6 @@ const ProjectList = [
       "../assets/projects/yogFit/yf2.jpg",
     ],
     liveLink: "",
-  },
-  {
-    projectName: "Twiller",
-    icon: "../assets/projects/twiller.png",
-    description:
-      "Worked on the project in internship at NULL CLASS & developed Few important features in M-E-R-N Stack. Improved the UI/UX & had a hands-on experience on the project with deployment & testing. This social media platform allows users to post tweets, follow other users, and engage with content. It was built using React for the frontend, Express.Js for the backend, and MongoDB as the database, providing a seamless user experience.",
-    info: ["React.Js, Express.Js, MongoDB, Firebase, Node.Js"],
-    gitLink: "https://github.com/Atharv-28/twiller-twitterclone",
-    snapshots: [
-      "../assets/projects/tw1.png",
-      "../assets/projects/tw2.png",
-      "../assets/projects/tw3.png",
-    ],
-    liveLink: "https://twiller-twitter-clone.netlify.app/",
   },
   {
     projectName: "Eco-Cart",
@@ -57,6 +29,33 @@ const ProjectList = [
       "../assets/projects/ecoCart/ms3.jpg",
     ],
     liveLink: "https://eco-cart-frontend.vercel.app/",
+  },
+  {
+    projectName: "Solar-Sim",
+    icon: "../assets/projects/solarSim/logo.png",
+    description:
+      "SolarSim is an interactive solar system simulation that allows users to explore planets, edit their properties, and visualize their orbits. The project includes features like zooming, panning, responsive design, and real-world scaling of planetary data.",
+    info: ["React.Js, Canvas, React-States"],
+    gitLink: "https://github.com/Atharv-28/solarsim",
+    snapshots: [
+      "../assets/projects/solarSim/ss1.png",
+      "../assets/projects/solarSim/ss2.png",
+    ],
+    liveLink: "https://solarsim-wine.vercel.app/",
+  },
+  {
+    projectName: "Twiller",
+    icon: "../assets/projects/twiller.png",
+    description:
+      "Worked on the project in internship at NULL CLASS & developed Few important features in M-E-R-N Stack. Improved the UI/UX & had a hands-on experience on the project with deployment & testing. This social media platform allows users to post tweets, follow other users, and engage with content. It was built using React for the frontend, Express.Js for the backend, and MongoDB as the database, providing a seamless user experience.",
+    info: ["React.Js, Express.Js, MongoDB, Firebase, Node.Js"],
+    gitLink: "https://github.com/Atharv-28/twiller-twitterclone",
+    snapshots: [
+      "../assets/projects/tw1.png",
+      "../assets/projects/tw2.png",
+      "../assets/projects/tw3.png",
+    ],
+    liveLink: "https://twiller-twitter-clone.netlify.app/",
   },
   {
     projectName: "News Buzz",
@@ -108,20 +107,6 @@ const ProjectList = [
     gitLink: "https://github.com/Atharv-28/FocusTime",
     snapshots: [],
     liveLink: "",
-  },
-  {
-    projectName: "Gadget Zone",
-    icon: "../assets/projects/gadgetZoneIco.png",
-    description:
-      "Gadget Zone is an e-commerce platform for tech enthusiasts. It showcases various gadgets and allows users to browse and purchase them. Built with React, it offers a sleek and modern interface for an enjoyable shopping experience.",
-    info: ["HTML, CSS, JavaScript"],
-    gitLink: "https://github.com/Atharv-28/Gadget-Zone",
-    snapshots: [
-      "../assets/projects/gz1.png",
-      "../assets/projects/gz2.png",
-      "../assets/projects/gz3.png",
-    ],
-    liveLink: "https://atharv-28.github.io/Gadget-Zone/index.html",
   },
 ];
 

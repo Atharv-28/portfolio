@@ -14,7 +14,7 @@ const techStack = [
     },
     {
       name: "jQuery",
-      logo: "https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/JQuery-Logo.svg/330px-JQuery-Logo.svg.png"
     },
     {
       name: "ReactJS",
@@ -22,19 +22,19 @@ const techStack = [
     },
     {
       name: "Node.js",
-      logo: "https://nodejs.org/static/images/logo-hexagon.png"
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/500px-Node.js_logo.svg.png"
     },
     {
       name: "Express JS",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+      logo: "https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
     },
     {
       name: "Firebase",
-      logo: "https://www.gstatic.com/devrel-devsite/prod/v886b96a591a3746d68e7c4e48b5dbb3b0e4cf4d232d8bd0b9cdb008f1214e922/firebase/images/lockup.png"
+      logo: "https://image.pngaaa.com/432/3425432-middle.png"
     },
     {
       name: "MongoDB",
-      logo: "https://www.mongodb.com/assets/images/global/leaf.svg"
+      logo: "https://tecnoticias.net/wp-content/uploads/2021/02/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg"
     },
     {
       name: "React-Native",

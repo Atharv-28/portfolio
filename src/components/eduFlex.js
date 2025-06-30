@@ -14,9 +14,15 @@ const eduFlex = () => {
           <h4>Diploma in Computer Science & Engineering</h4>
           <p>2021-2024</p>
         </div>
+        <div className="edu-grade-container">
+          <p className="edu-grade">
+            AGG : <span>87.66%</span>{" "}
+          </p>
+        </div>
+        
       </div>
       <div className="edu-card">
-      <img
+        <img
           className="edu-logo"
           src="/assets/collegeLogos/sgi.jpg"
           alt="Sanjay Ghodawat Institute"
@@ -25,6 +31,11 @@ const eduFlex = () => {
           <h3>Sanjay Ghodawat Institute</h3>
           <h4>B.Tech in Computer Science & Engineering</h4>
           <p>2024-Present</p>
+        </div>
+        <div className="edu-grade-container">
+          <p className="edu-grade">
+            CGPA : <span>N.A.</span>{" "}
+          </p>
         </div>
       </div>
     </div>

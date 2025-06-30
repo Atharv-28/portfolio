@@ -1,175 +1,212 @@
 .tabs-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px; 
-    padding: 20px;
-    border-radius: 10px;
-    width: 80vw;
-    background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    animation: fadeIn linear 0.5s;
-    animation-timeline: view();
-    animation-range: entry 0 cover 25%;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      translate: 0.5;
-    }
-    to {
-      opacity: 1;
-      translate: 1;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  animation: fadeIn linear 0.5s;
+  animation-timeline: view();
+  animation-range: entry 0 cover 25%;
 }
 
-  
-  
-  .tab-buttons {
-    padding-left: 30px;
-    overflow-x: scroll;
-    scrollbar-width: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px, rgba(33, 35, 38, 0.1) 0px -10px 10px -10px;
-}
-  
-  
-
-  .tab-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    margin: 0 10px;
-    padding: 10px;
-    transition: color 0.3s ease;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    translate: 0.5;
   }
-  
-  .tab-button:hover {
-    color: #4070f4;
-    font-weight: bold;
+  to {
+    opacity: 1;
+    translate: 1;
+  }
 }
 
-  .tab-button.active {
-    font-weight: bold;
-    color: #4070f4; 
-    /* text-decoration: underline; */
-    text-decoration-color: #4070f4;
-  }
-  
-  .tab-content {
-    width: 90%; 
-    margin-top: 20px; 
-  }
-  
-  .tab-content h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #0e2431;
-  }
-  
-  .tab-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-  }
-  
+.tab-buttons {
+  padding-left: 30px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px,
+    rgba(33, 35, 38, 0.1) 0px -10px 10px -10px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.tab-button:hover {
+  color: #4070f4;
+  font-weight: bold;
+}
+
+.tab-button.active {
+  font-weight: bold;
+  color: #4070f4;
+  /* text-decoration: underline; */
+  text-decoration-color: #4070f4;
+}
+
+.tab-content {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.tab-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #0e2431;
+}
+
+.tab-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
 /*           EDUFLEX BEGINS HERE       */
 
-  .edu{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .edu-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
-    gap: 5vh;
-    animation: transformIn linear 1.9s;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
-  }
-
-  @keyframes transformIn {
-    from {
-      opacity: 0;
-      transform: translateX(-100px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0px);
-    }
+.edu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.edu-card:hover{
+.edu-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  gap: 5vh;
+  animation: transformIn linear 1.9s;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+@keyframes transformIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.edu-card:hover {
   transform: translateY(-5px);
 }
-  .edu-logo{
-    padding: 20px;
-    width: 15%;
-    height: 15%;
+.edu-logo {
+  margin: 20px 20px 20px 20px;
+  width: 15%;
+  height: 15%;
+}
+
+.edu-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 0 0 20px;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 80%;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.degree {
+  height: max-content;
+  padding: 0 0 0 0;
+  margin-top: 2vh;
+}
+
+.degree h4 {
+  color: #4070f4;
+}
+
+.edu-grade-container {
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  transform: translateY(-50%) translateX(20px);
+  background: transparent;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.edu-card:hover .edu-grade-container {
+  opacity: 1;
+  transform: translateY(-5%) translateX(0);
+  pointer-events: auto;
+}
+
+.edu-grade span {
+  color: #4070f4;
+}
+
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .edu-flex {
+    padding: 10px;
+    width: 80vw;
+  }
+  .edu-logo {
+    width: 20%;
+    height: 20%;
+  }
+  .edu-card {
+    width: 90%;
+    gap: 0;
+  }
+  .degree {
+    padding: 0 0 0 20px;
+    margin-top: 0;
+  }
+  .tab-buttons {
+    width: 85vw;
+  }
+  .tab-button {
+    font-size: 1.1rem;
+  }
+  .edu h2 {
+    font-size: 1.2rem;
   }
 
-  .edu-card{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 50px;
-    background-color:#fff;
-    width: 80%;
-    transition: transform 0.3s ease;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  .edu-grade-container {
+    position: static;
+    opacity: 1;
+    transform: none;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
   }
-
-  .degree{
-    height: max-content;
-    padding: 0 0 0 50px;
-    margin-top: 2vh;
-  }
-
-  .degree h4{
-    color: #4070f4;
-  }
-
-  .project-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  @media only screen and (max-width: 600px) {
-    .edu-flex{
-      padding: 10px;
-      width: 80vw;
-    }
-    .edu-logo{
-      width: 20%;
-      height: 20%;
-    }
-    .edu-card{
-      width: 90%;
-      gap: 0;
-    }
-    .degree{
-      padding: 0 0 0 20px;
-      margin-top: 0;
-    }
-    .tab-buttons{
-      width: 85vw;
-    }
-    .tab-button{
-      font-size: 1.1rem;
-    }
-    .edu h2{
-      font-size: 1.2rem;
-    }
-  }
+}

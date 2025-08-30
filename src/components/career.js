@@ -21,6 +21,7 @@ const Career = () => {
           Education
         </button>
         <button
+          id="projects"
           className={`tab-button ${activeTab === "projects" ? "active" : ""}`}
           onClick={() => handleTabClick("projects")}
         >

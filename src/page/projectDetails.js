@@ -30,7 +30,7 @@ const ProjectDetails = () => {
   return (
     <div className="project-details-container">
       <div className="project-details-breadcrumbs">
-        <a href="/">Projects / </a>
+        <a href="/#career">Projects / </a>
         <span>Project Details</span>
       </div>
       <div className="project-details-heading">

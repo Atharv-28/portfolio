@@ -17,7 +17,9 @@ const ProjectList = [
     icon: "../assets/projects/ecoCart/logo.jpg",
     description:
       "Eco-Cart is an e-commerce platform focused on eco-friendly products. It allows users to browse and purchase sustainable items, promoting a greener lifestyle. Built with React, it features a modern design and user-friendly interface for an enjoyable shopping experience.",
-    info: ["React.Js, React Native, Express.Js, Node.Js, Flask, Python, Firebase"],
+    info: [
+      "React.Js, React Native, Express.Js, Node.Js, Flask, Python, Firebase",
+    ],
     gitLink: "",
     snapshots: [
       "../assets/projects/ecoCart/ss1.png",
@@ -69,13 +71,18 @@ const ProjectList = [
   },
   {
     projectName: "MCQ App",
-    icon: "../assets/projects/mcqIco.ico",
+    icon: "../assets/projects/mcq/mcqIco.ico",
     description:
-      "I developed the MCQ App as an assessment project for TheGoodGameTheory. This web application allows users to practice multiple-choice questions, providing a platform for learning and self-assessment. It was built using React and offers a user-friendly interface for an engaging experience.",
-    info: ["React, Pagination, States"],
-    gitLink: "https://github.com/Atharv-28/mcq-app",
-    snapshots: ["../assets/projects/mcq1.png"],
-    liveLink: "https://mcq-app-git-main-atharv-28s-projects.vercel.app/",
+      "I developed the MCQ App. This web application allows users to practice multiple-choice questions, providing a platform for learning and self-assessment. It was built using NextJS and offers a user-friendly interface for an engaging experience. IT has Features like ranking, difficulty levels and analysis dashboard.",
+    info: ["NEXT.Js, Express.Js, POSTGRE SQL, Tailwind CSS, API's"],
+    gitLink: "https://github.com/Atharv-28/mcqq",
+    snapshots: [
+      "../assets/projects/mcq/ss1.png",
+      "../assets/projects/mcq/ss2.png",
+      "../assets/projects/mcq/ss3.png",
+      "../assets/projects/mcq/ss4.png",
+    ],
+    liveLink: "https://mcqq-seven.vercel.app/",
   },
   {
     projectName: "To-Do List",

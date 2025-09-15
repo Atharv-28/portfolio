@@ -33,6 +33,19 @@ const ProjectList = [
     liveLink: "https://eco-cart-frontend.vercel.app/",
   },
   {
+    projectName: "Radhey Travel",
+    icon: "../assets/projects/radheyTravelIco.png",
+    description: "A vehicle rental service platform that allows users to book vehicles for travel. Built for a client on a freelance basis, this platform offers a seamless booking experience with various vehicle options and user-friendly features.",
+    info: ["HTML, CSS, JavaScript, API"],
+    gitLink: "https://github.com/rajveervchandaliya/Radhey-Travels",
+    snapshots: [
+      "../assets/projects/radhey1.png",
+      "../assets/projects/radhey2.png",
+      "../assets/projects/radhey3.png",
+    ],
+    liveLink: "https://radheytravel.in/",
+  },
+  {
     projectName: "Solar-Sim",
     icon: "../assets/projects/solarSim/logo.png",
     description:

@@ -15,8 +15,10 @@ const eduFlex = () => {
           <p>2021-2024</p>
         </div>
         <div className="edu-grade-container">
-          <p className="edu-grade">AGG :</p>
-          <span className="edu-grade">87.66%</span>
+          <div className="grade-badge">
+            <span className="grade-label">AGG</span>
+            <span className="grade-value">87.66%</span>
+          </div>
         </div>
       </div>
       <div className="edu-card">
@@ -31,10 +33,10 @@ const eduFlex = () => {
           <p>2024-Present</p>
         </div>
         <div className="edu-grade-container">
-          <p className="edu-grade">
-            CGPA :
-          </p>
-          <span className="edu-grade">7.76</span>
+          <div className="grade-badge">
+            <span className="grade-label">CGPA</span>
+            <span className="grade-value">7.76</span>
+          </div>
         </div>
       </div>
     </div>

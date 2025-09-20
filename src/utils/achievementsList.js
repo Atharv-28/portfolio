@@ -64,7 +64,7 @@ const AchievementsList = [
     competitionName: "Prabal 48-HOUR HACKATHON",
     year: "2025",
     rank: "Top 20",
-    skillsRequired: ["ReactJS", "Firebase", "Web Scraping", "APIs", "ExpressJS"],
+    skillsRequired: ["ReactJS", "Firebase", "Web Scraping", "APIs", "ExpressJS", "NodeJS", "Flask", "Python"],
     category: "Web Development",
     description: "Built a platform to add or check online products for eco-friendliness using web scraping and APIs.",
     certificateImage: "/assets/achievements/Prabal.png",

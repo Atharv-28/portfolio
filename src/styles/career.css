@@ -159,15 +159,16 @@
 }
 
 .grade-badge {
-  background: linear-gradient(135deg, #4070f4, #6c5ce7);
+  /* background: linear-gradient(135deg, #4070f4, #6c5ce7); */
+  background-color: #4070f4;
   border-radius: 25px;
-  padding: 12px 20px;
+  padding: 12px 10px;
   box-shadow: 0 8px 20px rgba(64, 112, 244, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  min-width: 80px;
+  min-width: 70px;
   position: relative;
   overflow: hidden;
 }

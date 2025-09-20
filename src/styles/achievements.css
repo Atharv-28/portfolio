@@ -4,7 +4,6 @@
   align-items: center;
   min-height: 100vh;
   padding: 80px 0;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   position: relative;
 }
 
@@ -20,14 +19,11 @@
 }
 
 .achievements-container {
-  width: 81vw; /* Reduced from 90vw by 10% for 1920px width */
-  max-width: 1260px; /* Reduced from 1400px by 10% */
+  width: 81vw; 
+  max-width: 1260px; 
   background: rgba(255, 255, 255, 0.95);
   border-radius: 25px;
   padding: 50px;
-  box-shadow: 
-    rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
-    rgba(64, 112, 244, 0.1) 0px 0px 0px 1px;
   animation: fadeInUp 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   position: relative;
   z-index: 1;
@@ -40,13 +36,9 @@
 
 .achievements-header h2 {
   font-size: 3rem;
-  color: #0e2431;
+  color: #4070f4;
   margin-bottom: 15px;
   font-weight: 700;
-  background: linear-gradient(135deg, #0e2431, #4070f4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .achievements-header p {
@@ -119,8 +111,9 @@
 
 /* Achievements Grid */
 .achievements-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin-top: 30px;
 }
@@ -136,6 +129,10 @@
   cursor: pointer;
   position: relative;
   animation: slideInUp 0.6s ease-out both;
+  width: calc((100% - 60px) / 3); 
+  min-width: 350px; 
+  max-width: 380px;
+  flex-shrink: 0; 
 }
 
 .achievement-card:hover {
@@ -467,8 +464,13 @@
 /* Mobile Responsiveness */
 @media (max-width: 1024px) {
   .achievements-grid {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 25px;
+  }
+  
+  .achievement-card {
+    width: calc((100% - 25px) / 2); /* 2 cards per row on tablets */
+    min-width: 320px;
+    max-width: 350px;
   }
 }
 
@@ -487,13 +489,13 @@
   }
   
   .achievements-grid {
-    grid-template-columns: 1fr;
     gap: 20px;
   }
   
   .achievement-card {
-    margin: 0 auto;
+    width: 100%; /* Single column on mobile */
     max-width: 400px;
+    min-width: unset;
   }
   
   .category-filter {

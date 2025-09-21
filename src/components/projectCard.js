@@ -18,12 +18,14 @@ const ProjectCard = ({ project }) => {
         <div className="project-details">
           <p className="project-description">{project.description}</p>
           <div className="project-links">
-            <Link
-              to={`/project-details/${project.projectName}`}
-              className="project-link"
-            >
-              View Details
-            </Link>
+            <button className="project-button">
+              <Link
+                to={`/project-details/${project.projectName}`}
+                className="project-link"
+              >
+                View Details
+              </Link>
+            </button>
           </div>
         </div>
     </div>

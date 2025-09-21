@@ -42,6 +42,16 @@
     justify-self: flex-end;
   }
   
+  .project-button {
+    background-color: #f0f8ff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+
   .project-link {
     color: #4070f4;
     text-decoration: none;

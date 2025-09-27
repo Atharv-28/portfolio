@@ -78,7 +78,7 @@ const Navbar = () => {
         </ul>
         <a
           className="about-me-button nav-but"
-          href="https://drive.google.com/file/d/1riskiaAmLFIsJKH9xXSfZzJq0fLyXIqh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1g1LPZBTbBQlSDLsZTPCLMHkMCHJxUXmH/view?usp=sharing"
           target="_blank"
         >
           Resume

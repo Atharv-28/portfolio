@@ -4,6 +4,25 @@ import "../styles/projectCard.css";
 
 const ProjectCard = ({ project }) => {
   const ico = project.icon;
+  
+  // Get platform badge text based on platform
+  const getPlatformBadge = () => {
+    const platform = project.platform;
+    if (platform.includes('Website') && platform.includes('Android')) {
+      return '🌐 + 📱';
+    } else if (platform.includes('Android') && platform.includes('IoT')) {
+      return '📱 + 🔧';
+    } else if (platform.includes('Android')) {
+      return '📱';
+    } else if (platform.includes('Website')) {
+      return '🌐';
+    } else if (platform.includes('IoT')) {
+      return '🔧';
+    } else {
+      return '💻';
+    }
+  };
+
   console.log(ico);
   return (
     <div className="project-card">
@@ -14,6 +33,9 @@ const ProjectCard = ({ project }) => {
             className="project-icon"
           />
           <h3 className="project-name">{project.projectName}</h3>
+          <div className="platform-badge">
+            {getPlatformBadge()}
+          </div>
         </div>
         <div className="project-details">
           <p className="project-description">{project.description}</p>

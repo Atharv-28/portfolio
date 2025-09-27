@@ -69,3 +69,11 @@
     }
     
   }
+
+  /* Platform Badge */
+.platform-badge {
+  font-size: 1.2rem;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}

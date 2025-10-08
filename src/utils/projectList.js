@@ -1,15 +1,22 @@
 const ProjectList = [
   {
-    projectName: "Yog-fit",
-    icon: "../assets/projects/yogFit/yogFitIco.png",
+    projectName: "Expense Track & Analyse",
+    icon: "../assets/projects/eta/logo.png",
     description:
-      "Yog-fit is my final year capstone project. This application promotes fitness and wellness through yoga. It provides users with yoga routines, tracking their progress and offering personalized recommendations. Built with React Native, it aims to make yoga accessible and enjoyable.",
-    info: ["React-Native, Firebase"],
+      "Expense Track & Analyse is a project that provides users with real-time updates on their transactions. It is integrated with sms broadcaster to fetch transactions live data and offers a user-friendly interface for tracking timely expenses with categories.",
+    info: ["React-Native CLI, JAVA"],
     platform: "Android App",
-    gitLink: "https://github.com/Atharv-28/Yog-fit",
+    gitLink: "https://github.com/Atharv-28/E.T.A.",
     snapshots: [
-      "../assets/projects/yogFit/yf1.jpg",
-      "../assets/projects/yogFit/yf2.jpg",
+      "../assets/projects/eta/ss1.jpg",
+      "../assets/projects/eta/ss2.jpg",
+      "../assets/projects/eta/ss3.jpg",
+      "../assets/projects/eta/ss4.jpg",
+      "../assets/projects/eta/ss5.jpg",
+      "../assets/projects/eta/ss6.jpg",
+      "../assets/projects/eta/ss7.jpg",
+      "../assets/projects/eta/ss8.jpg",
+
     ],
     liveLink: "",
   },
@@ -17,9 +24,9 @@ const ProjectList = [
     projectName: "Eco-Cart",
     icon: "../assets/projects/ecoCart/logo.jpg",
     description:
-      "Eco-Cart is an e-commerce platform focused on eco-friendly products. It allows users to browse and purchase sustainable items, promoting a greener lifestyle. Built with React, it features a modern design and user-friendly interface for an enjoyable shopping experience.",
+    "Eco-Cart is an e-commerce platform focused on eco-friendly products. It allows users to browse and purchase sustainable items, promoting a greener lifestyle. Built with React, it features a modern design and user-friendly interface for an enjoyable shopping experience.",
     info: [
-      "React.Js, React Native, Express.Js, Node.Js, Flask, Python, Firebase",
+      "React.Js, React Native + Expo, Express.Js, Node.Js, Flask, Python, Firebase",
     ],
     platform: "Website & Android App",
     gitLink: "",
@@ -33,6 +40,20 @@ const ProjectList = [
       "../assets/projects/ecoCart/ms3.jpg",
     ],
     liveLink: "https://eco-cart-frontend.vercel.app/",
+  },
+  {
+    projectName: "Yog-fit",
+    icon: "../assets/projects/yogFit/yogFitIco.png",
+    description:
+      "Yog-fit is my final year capstone project. This application promotes fitness and wellness through yoga. It provides users with yoga routines, tracking their progress and offering personalized recommendations. Built with React Native, it aims to make yoga accessible and enjoyable.",
+    info: ["React-Native + Expo, Firebase"],
+    platform: "Android App",
+    gitLink: "https://github.com/Atharv-28/Yog-fit",
+    snapshots: [
+      "../assets/projects/yogFit/yf1.jpg",
+      "../assets/projects/yogFit/yf2.jpg",
+    ],
+    liveLink: "",
   },
   {
     projectName: "Radhey Travel",
@@ -120,7 +141,7 @@ const ProjectList = [
     icon: "../assets/projects/waterLevelIco.png",
     description:
       "I developed the Water Level project to monitor the water level in my house's tank. This IoT solution uses sensors and a mobile app, with Firebase as the database, to detect and display water levels. It helps in managing water resources efficiently.",
-    info: ["Iot, c++, Arduino, Firebase, React-Native"],
+    info: ["Iot, c++, Arduino, Firebase, React-Native + Expo"],
     platform: "Android App & IoT",
     gitLink: "https://github.com/Atharv-28/WaterLevel",
     snapshots: [],
@@ -132,7 +153,7 @@ const ProjectList = [
     icon: "../assets/projects/FocusTimeIco.png",
     description:
       "I developed FocusTime to help users manage their time effectively. This productivity app features a timer for focused work sessions and breaks, following the Pomodoro technique. It aims to boost productivity and maintain a healthy work-life balance.",
-    info: ["React-Native"],
+    info: ["React-Native + Expo"],
     platform: "Android App",
     gitLink: "https://github.com/Atharv-28/FocusTime",
     snapshots: [],

@@ -80,6 +80,7 @@ const Navbar = () => {
           className="about-me-button nav-but"
           href="https://drive.google.com/file/d/1g1LPZBTbBQlSDLsZTPCLMHkMCHJxUXmH/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           Resume
         </a>

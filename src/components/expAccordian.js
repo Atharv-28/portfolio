@@ -53,6 +53,7 @@ const ExpAccordian = () => {
               className="about-me-button"
               href="https://drive.google.com/file/d/1Fgnidv8rp1HgyrWshoXaKrC00OCU-jNc/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
             >
               Experience Certificate | Letter of Recommendation
             </a>

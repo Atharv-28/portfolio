@@ -48,6 +48,7 @@ const AboutMe = () => {
         className="about-me-button"
         href="https://drive.google.com/file/d/1riskiaAmLFIsJKH9xXSfZzJq0fLyXIqh/view?usp=sharing"
         target="_blank"
+        rel="noreferrer"
       >
         Resume
       </a>

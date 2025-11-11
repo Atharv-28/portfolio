@@ -70,6 +70,30 @@ const AchievementsList = [
     certificateImage: "/assets/achievements/Prabal.png",
     icon: "⭐",
     status: "Top Performer in PS"
+  },
+  {
+    id: 7,
+    competitionName: "Debate Competition 2k25",
+    year: "2025",
+    rank: "1st Place",
+    skillsRequired: ["Communication", "Critical Thinking", "Teamwork", "Public Speaking", "Active Listening", "Persuasion"],
+    category: "Soft Skills",
+    description: "Won in a debate competition showcasing strong communication and critical thinking skills.",
+    certificateImage: "/assets/achievements/Debate2k25.png",
+    icon: "🏆",
+    status: "Winner"
+  },
+  {
+    id: 8,
+    competitionName: "Argue-Mind",
+    year: "2025",
+    rank: "Technical Head",
+    skillsRequired: ["Leadership", "Project Management", "Communication", "Critical Thinking", "Team Management", "Public Speaking"],
+    category: "Soft Skills",
+    description: "Built a platform to conduct online debates and quizzes, enhancing users' critical thinking and managed the technical team effectively.",
+    certificateImage: "/assets/achievements/ArgueMan.png",
+    icon: "⭐",
+    status: "Management"
   }
 ];
 

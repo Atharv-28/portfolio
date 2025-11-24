@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  background-color: #f0f8ff;
+  background-color: var(--bg-primary);
   width: 100%;
 }
 

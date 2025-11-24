@@ -5,7 +5,7 @@
   margin-top: 5vh;
   height: max-content;
   justify-content: center;
-  background-color: #fff;
+  background-color: var(--bg-secondary);
   padding: 10vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -17,7 +17,7 @@
 
 .project-details-breadcrumbs a {
   text-decoration: none;
-  color: #007bff;
+  color: var(--accent-blue);
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
@@ -27,7 +27,7 @@
 }
 
 .project-details-breadcrumbs a span {
-  color: #000;
+  color: var(--text-black);
 }
 
 .project-details-heading {
@@ -50,8 +50,8 @@
 .tech-span {
   padding: 5px 15px 5px 15px;
   border-radius: 20px;
-  color: #007bff;
-  background-color: #f0f8ff;
+  color: var(--accent-blue);
+  background-color: var(--bg-primary);
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
@@ -74,7 +74,7 @@
 .project-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #007bff;
+  color: var(--accent-blue);
   display: flex;
   align-items: center;
   /* justify-content: center; */
@@ -110,14 +110,14 @@
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: #007bff;
+  color: var(--accent-blue);
   font-weight: bold;
   font-size: 18px;
   transition: 0.4s ease;
   user-select: none;
   border: none;
-  background-color: #f0f8ff;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow-intense) 0px 5px 15px 0px;
 }
 
 .prev {
@@ -132,8 +132,8 @@
 
 .prev:hover,
 .next:hover {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--accent-blue);
+  color: var(--text-white);
 }
 
 @media only screen and (max-width: 600px) {

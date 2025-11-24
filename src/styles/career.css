@@ -6,7 +6,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 80vw;
-  background-color: #fff;
+  background-color: var(--bg-secondary);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   animation: fadeIn linear 0.5s;
   animation-timeline: view();
@@ -46,15 +46,15 @@
 }
 
 .tab-button:hover {
-  color: #4070f4;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
 .tab-button.active {
   font-weight: bold;
-  color: #4070f4;
+  color: var(--primary-color);
   /* text-decoration: underline; */
-  text-decoration-color: #4070f4;
+  text-decoration-color: var(--primary-color);
 }
 
 .tab-content {
@@ -65,13 +65,13 @@
 .tab-content h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #0e2431;
+  color: var(--text-primary);
 }
 
 .tab-content p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #333;
+  color: var(--text-dark);
 }
 
 /*           EDUFLEX BEGINS HERE       */
@@ -124,7 +124,7 @@
   padding: 0 0 0 20px;
   gap: 20px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: var(--bg-secondary);
   width: 85%;
   position: relative;
   transition: transform 0.3s ease;
@@ -139,7 +139,7 @@
 }
 
 .degree h4 {
-  color: #4070f4;
+  color: var(--primary-color);
 }
 
 .edu-grade-container {
@@ -147,7 +147,7 @@
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transform: translateY(-50%) translateX(20px) scale(0.8);
   background: transparent;
-  color: #fff;
+  color: var(--text-white);
   margin-top: 0;
   font-weight: bold;
   display: flex;
@@ -159,11 +159,11 @@
 }
 
 .grade-badge {
-  /* background: linear-gradient(135deg, #4070f4, #6c5ce7); */
-  background-color: #4070f4;
+  /* background: var(--gradient-purple); */
+  background-color: var(--primary-color);
   border-radius: 25px;
   padding: 12px 10px;
-  box-shadow: 0 8px 20px rgba(64, 112, 244, 0.3);
+  box-shadow: 0 8px 20px var(--shadow-primary-strong);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,7 +187,7 @@
 .grade-label {
   font-size: 0.8rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--overlay-light);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -195,7 +195,7 @@
 .grade-value {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #fff;
+  color: var(--text-white);
   text-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
 
@@ -210,7 +210,7 @@
 }
 
 .edu-grade{
-  color: #4070f4;
+  color: var(--primary-color);
 }
 
 .project-flex {

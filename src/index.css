@@ -1,5 +1,71 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #4070f4;
+  --primary-light: #6b8fff;
+  --primary-dark: #0e2431;
+  
+  /* Background Colors */
+  --bg-primary: #f0f8ff;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f8f9ff;
+  --bg-light: #f5f7fa;
+  --bg-gray: #f8f9fa;
+  --bg-gray-light: #e9ecef;
+  
+  /* Text Colors */
+  --text-primary: #0e2431;
+  --text-secondary: #555;
+  --text-muted: #666;
+  --text-light: #6c757d;
+  --text-dark: #333;
+  --text-white: #ffffff;
+  --text-black: #000;
+  
+  /* Border Colors */
+  --border-light: #e0e6ed;
+  --border-gray: #dee2e6;
+  --border-white: #f3f3f3;
+  --border-divider: #eee;
+  
+  /* Accent Colors */
+  --accent-purple: #6c5ce7;
+  --accent-gold: #ffd700;
+  --accent-orange: #ffb347;
+  --accent-brown: #8b4513;
+  --accent-blue: #007bff;
+  --accent-red: #ff4757;
+  
+  /* Shadow Colors (rgba values) */
+  --shadow-primary: rgba(64, 112, 244, 0.1);
+  --shadow-primary-medium: rgba(64, 112, 244, 0.2);
+  --shadow-primary-strong: rgba(64, 112, 244, 0.3);
+  --shadow-primary-intense: rgba(64, 112, 244, 0.4);
+  --shadow-light: rgba(0, 0, 0, 0.05);
+  --shadow-medium: rgba(0, 0, 0, 0.08);
+  --shadow-strong: rgba(0, 0, 0, 0.1);
+  --shadow-intense: rgba(0, 0, 0, 0.15);
+  --shadow-dark: rgba(0, 0, 0, 0.3);
+  --shadow-darker: rgba(0, 0, 0, 0.8);
+  
+  /* Overlay Colors */
+  --overlay-light: rgba(255, 255, 255, 0.9);
+  --overlay-medium: rgba(255, 255, 255, 0.95);
+  --overlay-dark: rgba(0, 0, 0, 0.8);
+  
+  /* Gradient Colors */
+  --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  --gradient-title: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  --gradient-purple: linear-gradient(135deg, var(--primary-color), var(--accent-purple));
+  --gradient-gold: linear-gradient(135deg, var(--accent-gold), var(--accent-orange));
+  --gradient-bg: linear-gradient(135deg, var(--bg-light) 0%, var(--bg-secondary) 50%, var(--bg-tertiary) 100%);
+  --gradient-card: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+  --gradient-gray: linear-gradient(135deg, var(--bg-gray), var(--bg-gray-light));
+}
+
 body {
   margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

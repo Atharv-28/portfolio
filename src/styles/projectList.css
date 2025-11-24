@@ -1,10 +1,10 @@
   
   .project-card {
     width: 40%;
-    background-color: #ffffff;
+    background-color: var(--bg-secondary);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px var(--shadow-strong);
   }
 
   .proFlex {
@@ -28,7 +28,7 @@
   }
   
   .project-description {
-    color: #555;
+    color: var(--text-secondary);
   }
   
   .project-links {
@@ -37,7 +37,7 @@
   
   .project-link {
     margin-right: 10px;
-    color: #007bff;
+    color: var(--accent-blue);
     text-decoration: none;
   }
   

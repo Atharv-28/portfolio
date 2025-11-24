@@ -1,5 +1,5 @@
 .social-icon {
-    color: white;
+    color: var(--text-white);
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s;
@@ -7,5 +7,5 @@
   }
   
   .social-icon:hover {
-    color: black; 
+    color: var(--text-black); 
   }

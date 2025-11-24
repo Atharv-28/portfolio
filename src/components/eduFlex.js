@@ -35,7 +35,7 @@ const eduFlex = () => {
         <div className="edu-grade-container">
           <div className="grade-badge">
             <span className="grade-label">CGPA</span>
-            <span className="grade-value">7.76</span>
+            <span className="grade-value">7.5</span>
           </div>
         </div>
       </div>

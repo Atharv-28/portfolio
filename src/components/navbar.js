@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li>
-            <Link to="/" onClick={() => handleNavigation("intro")}>
+            <Link to="/" onClick={() => handleNavigation("about-me")}>
               About Me
             </Link>
           </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
           </li>
         </ul>
         <a
-          className="about-me-button nav-but"
+          className="nav-but"
           href="https://drive.google.com/file/d/1g1LPZBTbBQlSDLsZTPCLMHkMCHJxUXmH/view?usp=sharing"
           target="_blank"
           rel="noreferrer"

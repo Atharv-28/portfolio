@@ -71,7 +71,7 @@ const AboutMe = () => {
         <div className="about-me-actions">
           <a
             className="about-me-button primary"
-            href="https://drive.google.com/file/d/1riskiaAmLFIsJKH9xXSfZzJq0fLyXIqh/view?usp=sharing"
+            href="https://drive.google.com/file/d/1g1LPZBTbBQlSDLsZTPCLMHkMCHJxUXmH/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

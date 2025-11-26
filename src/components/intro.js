@@ -119,7 +119,7 @@ const Intro = () => {
               <div className="image-glow"></div>
               <img className="intro-image" src={introImg} alt="Atharv Tambekar" />
               <div className="floating-badge badge-1">
-                <CodeIcon className="badge-icon" />
+                <CodeIcon className="badge-icon1" />
                 <span>Developer</span>
               </div>
             </div>

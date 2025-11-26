@@ -42,6 +42,26 @@ const ProjectList = [
     liveLink: "https://eco-cart-frontend.vercel.app/",
   },
   {
+    projectName: "Nutri-Veda",
+    icon: "../assets/projects/nutriVeda/logo.png",
+    description:
+      "NutriVeda is a React Native mobile app that provides personalized Ayurvedic diet plans based on Prakruti (body constitution) assessment, featuring patient-doctor collaboration, real-time diet plan management, and appointment booking. Built with Expo, React Native, Firebase (Authentication & Firestore), and integrates an intelligent diet engine that generates customized meal recommendations based on dosha types (Vata, Pitta, Kapha) with doctor oversight and approval workflow.",
+    info: ["React-Native + Expo, Firebase"],
+    platform: "Android App",
+    snapshots: [
+      "../assets/projects/nutriVeda/ss1.jpg",
+      "../assets/projects/nutriVeda/ss2.jpg",
+      "../assets/projects/nutriVeda/ss3.jpg",
+      "../assets/projects/nutriVeda/ss4.jpg",
+      "../assets/projects/nutriVeda/ss5.jpg",
+      "../assets/projects/nutriVeda/ss6.png",
+      "../assets/projects/nutriVeda/ss7.png",
+      "../assets/projects/nutriVeda/ss8.png",
+      "../assets/projects/nutriVeda/ss9.png",
+    ],
+    gitLink: "https://github.com/Atharv-28/nutri-veda"
+  },
+  {
     projectName: "Yog-fit",
     icon: "../assets/projects/yogFit/yogFitIco.png",
     description:

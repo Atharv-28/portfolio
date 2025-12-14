@@ -47,7 +47,7 @@ const AboutMe = () => {
             <div className="stat-card">
               <CakeIcon className="stat-icon" />
               <div className="stat-content">
-                <h4 className="stat-value">19</h4>
+                <h4 className="stat-value">20</h4>
                 <p className="stat-label">Years Old</p>
               </div>
             </div>

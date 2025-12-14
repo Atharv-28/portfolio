@@ -6,6 +6,7 @@ const Achievements = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedAchievement, setSelectedAchievement] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     // Simulate loading time for animations
@@ -21,6 +22,11 @@ const Achievements = () => {
   const filteredAchievements = selectedCategory === "All" 
     ? AchievementsList 
     : AchievementsList.filter(item => item.category === selectedCategory);
+
+  // Show only first row (3-4 items) initially
+  const itemsPerRow = 3;
+  const displayedAchievements = showAll ? filteredAchievements : filteredAchievements.slice(0, itemsPerRow);
+  const hasMoreItems = filteredAchievements.length > itemsPerRow;
 
   const openModal = (achievement) => {
     setSelectedAchievement(achievement);
@@ -60,7 +66,7 @@ const Achievements = () => {
 
             {/* Achievements Grid */}
             <div className="achievements-grid">
-              {filteredAchievements.map((achievement, index) => (
+              {displayedAchievements.map((achievement, index) => (
                 <div 
                   key={achievement.id} 
                   className="achievement-card"
@@ -122,6 +128,33 @@ const Achievements = () => {
             </div>
           ))}
             </div>
+
+            {/* View More Button */}
+            {hasMoreItems && (
+              <div className="view-more-container">
+                <button 
+                  className="view-more-btn"
+                  onClick={() => setShowAll(!showAll)}
+                >
+                  {showAll ? (
+                    <>
+                      <span>Show Less</span>
+                      <span className="arrow">▲</span>
+                    </>
+                  ) : (
+                    <>
+                      <span>View More Achievements</span>
+                      <span className="arrow">▼</span>
+                    </>
+                  )}
+                </button>
+                {!showAll && (
+                  <p className="more-count">
+                    +{filteredAchievements.length - itemsPerRow} more achievements
+                  </p>
+                )}
+              </div>
+            )}
 
             {/* Modal for Certificate View */}
             {selectedAchievement && (

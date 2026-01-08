@@ -1,5 +1,23 @@
 const ProjectList = [
   {
+    projectName: "Valora",
+    icon: "../assets/projects/valora/logo.png",
+    description:
+    "Valora is a multimodal AI platform that revolutionizes interview prep by transforming your PDF Resume and Job Description into a live, vocal technical interview.",
+    info: [
+      "React.Js, Express.Js, Node.Js, Firebase",
+    ],
+    platform: "Website",
+    gitLink: "https://github.com/Atharv-28/Valora",
+    snapshots: [
+      "../assets/projects/valora/ss1.png",
+      "../assets/projects/valora/ss2.png",
+      "../assets/projects/valora/ss3.png",
+      "../assets/projects/valora/ss4.png",
+    ],
+    liveLink: "https://valora-5a3k.onrender.com/",
+  },
+  {
     projectName: "Expense Track & Analyse",
     icon: "../assets/projects/eta/logo.png",
     description:

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/career.css";
-import ProjectsFlex from "./projectFlex";
 import EduFlex from "./eduFlex";
 import ExpAccordian from "./expAccordian";
 
@@ -21,13 +20,6 @@ const Career = () => {
           Education
         </button>
         <button
-          id="projects"
-          className={`tab-button ${activeTab === "projects" ? "active" : ""}`}
-          onClick={() => handleTabClick("projects")}
-        >
-          Projects
-        </button>
-        <button
           className={`tab-button ${activeTab === "experience" ? "active" : ""}`}
           onClick={() => handleTabClick("experience")}
         >
@@ -40,12 +32,6 @@ const Career = () => {
           <div className="edu">
             <h2>Education</h2>
             <EduFlex className="edu-flex" />
-          </div>
-        )}
-        {activeTab === "projects" && (
-          <div className="edu">
-            <h2>Projects</h2>
-            <ProjectsFlex className="project-flex" />
           </div>
         )}
         {activeTab === "experience" && (

@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   animation: transformIn linear 0.5s;
+  gap: 5vh;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
@@ -22,6 +23,7 @@
 .exp-accordian-effect{
     display: block;
     transition: all 0.3s ease;
+    border-radius: 30px;
 }
 .exp-accordian-effect:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -63,6 +65,18 @@
 .exp-details li {
   width: 95%;
   text-align: justify;
+}
+
+.exp-details .about-me-button {
+  background: var(--primary-color);
+  color: var(--text-white);
+}
+
+.exp-details .about-me-button:hover {
+  background: var(--text-white);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 768px) {

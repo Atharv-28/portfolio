@@ -22,7 +22,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
-  padding: 40px 0;
+  margin-top: -10vh;
+  padding: 20px 0;
 }
 
 /* Text Content */

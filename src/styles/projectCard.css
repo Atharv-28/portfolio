@@ -43,7 +43,7 @@
   }
   
   .project-button {
-    background-color: var(--bg-primary);
+    background-color: transparent;
     border: none;
     border-radius: 5px;
     padding: 8px 12px;

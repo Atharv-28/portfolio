@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <Contact />
         <p className="footer-text">
-          © 2024-25 ATHARV MAYUR TAMBEKAR. All rights reserved.
+          © 2024-26 ATHARV MAYUR TAMBEKAR. All rights reserved.
         </p>
       </div>
     </footer>

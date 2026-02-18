@@ -3,7 +3,7 @@
   overflow: hidden;
   white-space: nowrap;
   width: 83vw;
-  background-color: transparent;
+  background-color: #fff;
   backdrop-filter: blur(50px);
   margin-top: 10vh;
   display: flex;
@@ -11,6 +11,19 @@
   align-items: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
+  color: #333;
+  padding: 30px;
+}
+.tech-stack-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .tech-stack-container {
+    color: var(--primary-color);
+  }
 }
 
 @keyframes scroll {

@@ -1,5 +1,4 @@
 import React from "react";
-// import techStack from "../utils/techStack";
 import LogoLoop from "./logoloop";
 import "../styles/skills.css";
 import { 
@@ -8,6 +7,7 @@ import {
   SiJavascript, 
   SiJquery, 
   SiReact, 
+  SiExpo,
   SiNodedotjs, 
   SiExpress, 
   SiFirebase, 
@@ -15,9 +15,11 @@ import {
   SiMysql, 
   SiC, 
   SiCplusplus, 
-  SiPython 
+  SiPython,
+  SiDocker 
 } from 'react-icons/si';
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaAndroid } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
 
 
 
@@ -27,6 +29,8 @@ const techLogos = [
   { node: <SiJavascript />, title: "JavaScript", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
   { node: <SiJquery />, title: "jQuery", href: "https://jquery.com" },
   { node: <SiReact />, title: "ReactJS", href: "https://react.dev" },
+  { node: <SiExpo />, title: "Expo", href: "https://expo.dev" },
+  { node: <FaAndroid />, title: "Android", href: "https://developer.android.com" },
   { node: <SiNodedotjs />, title: "Node.js", href: "https://nodejs.org" },
   { node: <SiExpress />, title: "Express JS", href: "https://expressjs.com" },
   { node: <SiFirebase />, title: "Firebase", href: "https://firebase.google.com" },
@@ -37,6 +41,8 @@ const techLogos = [
   { node: <SiCplusplus />, title: "C++", href: "https://isocpp.org" },
   { node: <FaJava />, title: "JAVA", href: "https://www.java.com" },
   { node: <SiPython />, title: "Python", href: "https://www.python.org" },
+  { node: <SiDocker />, title: "Docker", href: "https://www.docker.com" },
+  { node: <VscAzure />, title: "Azure", href: "https://azure.microsoft.com" },
 ];
 
 
@@ -45,15 +51,12 @@ const Skills = () => {
     <div id="skills" className="tech-stack-container">
       <h2>Skills</h2>
       <div className="tech-stack-marquee">
-        <div
-          style={{ height: "200px", position: "relative", overflow: "hidden" }}
-        >
           {/* Basic horizontal loop */}
           <LogoLoop
             logos={techLogos}
             speed={100}
             direction="left"
-            logoHeight={60}
+            logoHeight={80}
             gap={60}
             hoverSpeed={0}
             scaleOnHover
@@ -61,7 +64,6 @@ const Skills = () => {
             fadeOutColor="#ffffff"
             ariaLabel="Technology partners"
           />
-        </div>
       </div>
     </div>
   );

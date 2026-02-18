@@ -4,7 +4,6 @@ import TranslateIcon from "@mui/icons-material/Translate";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CakeIcon from "@mui/icons-material/Cake";
 import CodeIcon from "@mui/icons-material/Code";
-import SchoolIcon from "@mui/icons-material/School";
 import DescriptionIcon from "@mui/icons-material/Description";
 
 const AboutMe = () => {

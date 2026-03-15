@@ -23,10 +23,25 @@ const ExperienceList = [
     description: [
       "Collaborated with a team of developers to build and enhance web applications using React JS.",
       "Implemented responsive UI components, ensuring cross-browser compatibility and optimal performance.",
-        "Participated in code reviews and contributed to improving coding standards and best practices within the team.",
+        "Conducted code reviews and contributed to improving coding standards and best practices within the team.",
         "Assisted in debugging and resolving issues, enhancing the overall user experience of the applications.",
     ],
     certificateLink: "https://drive.google.com/file/d/1jJH1bX4YkS6Y2b0n0T3p5n1FzZ8x7X9R/view?usp=sharing",
+    certificateText: "Internship Offer Letter",
+  },
+  {
+    id: 3,
+    company: "Hisab OK",
+    logo: "/assets/companyLogos/hisabok.jpg",
+    position: "Mobile App & Web Developer Intern",
+    duration: "Feb 2026 - Aug 2026",
+    description: [
+      "Maintained & updated mobile applications and web platforms using React and React-Native technologies.",
+      "Collaborated with cross-functional teams to design and implement new features.",
+      "Optimized application performance and resolved critical issues to ensure smooth user experience.",
+      "Participated in code reviews and contributed to improving coding standards and best practices within the team."
+    ],
+    certificateLink: "https://drive.google.com/file/d/1aB2c3d4e5f6g7h8i9j0k1l2m3n4o5p6/view?usp=sharing",
     certificateText: "Internship Offer Letter",
   }
 ];

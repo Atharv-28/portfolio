@@ -81,6 +81,25 @@
   height: var(--logoloop-logoHeight);
 }
 
+/* New: title under each logo and column layout */
+.logoloop__content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.logoloop__title {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 700;
+  margin-top: 4px;
+  color: inherit;
+  opacity: 0.95;
+  white-space: nowrap;
+}
+
 .logoloop__item img {
   height: var(--logoloop-logoHeight);
   width: auto;

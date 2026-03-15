@@ -75,13 +75,20 @@ const LogoLoop = ({
       <img src={item.src} alt={item.alt || ''} title={item.title} loading="lazy" draggable={false} />
     );
 
+    const contentWithTitle = (
+      <div className="logoloop__content">
+        {content}
+        {item.title && <div className="logoloop__title">{item.title}</div>}
+      </div>
+    );
+
     return (
       <li className="logoloop__item" key={idx}>
         {item.href ? (
           <a className="logoloop__link" href={item.href} target="_blank" rel="noreferrer noopener" aria-label={item.title}>
-            {content}
+            {contentWithTitle}
           </a>
-        ) : content}
+        ) : contentWithTitle}
       </li>
     );
   };

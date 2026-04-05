@@ -164,17 +164,6 @@ const ProjectList = [
     liveLink: "https://mcqq-seven.vercel.app/",
   },
   {
-    projectName: "To-Do List",
-    icon: "../assets/projects/toDoIco.png",
-    description:
-      "I created the To-Do List app to help users manage their tasks efficiently. This application allows users to add, edit, and delete tasks, ensuring they stay organized. Built with React, it features a clean and intuitive interface for easy task management.",
-    info: ["HTML, CSS, JavaScript, Express.JS, MongoDB"],
-    platform: "Website",
-    gitLink: "https://github.com/Atharv-28/To-Do-List",
-    snapshots: ["../assets/projects/todo1.png"],
-    liveLink: "https://atharv-28.github.io/To-Do-List/",
-  },
-  {
     projectName: "Water Level",
     icon: "../assets/projects/waterLevelIco.png",
     description:
@@ -184,19 +173,7 @@ const ProjectList = [
     gitLink: "https://github.com/Atharv-28/WaterLevel",
     snapshots: [],
     liveLink: "",
-  },
-
-  {
-    projectName: "FocusTime",
-    icon: "../assets/projects/FocusTimeIco.png",
-    description:
-      "I developed FocusTime to help users manage their time effectively. This productivity app features a timer for focused work sessions and breaks, following the Pomodoro technique. It aims to boost productivity and maintain a healthy work-life balance.",
-    info: ["React-Native + Expo"],
-    platform: "Android App",
-    gitLink: "https://github.com/Atharv-28/FocusTime",
-    snapshots: [],
-    liveLink: "",
-  },
+  }
 ];
 
 export default ProjectList;

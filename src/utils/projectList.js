@@ -32,8 +32,6 @@ const ProjectList = [
       "../assets/projects/eta/ss4.jpg",
       "../assets/projects/eta/ss5.jpg",
       "../assets/projects/eta/ss6.jpg",
-      "../assets/projects/eta/ss7.jpg",
-      "../assets/projects/eta/ss8.jpg",
 
     ],
     liveLink: "",

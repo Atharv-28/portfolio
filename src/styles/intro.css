@@ -1,6 +1,7 @@
 /* Hero Section */
 .intro-section {
   min-height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,20 +11,13 @@
   border-radius: 20px;
 }
 
-.intro-container {
-  max-width: 1400px;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-}
-
 .intro-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: -10vh;
-  padding: 20px 0;
+  margin-top: -15vh;
+  padding: 20px 50px;
 }
 
 /* Text Content */
@@ -35,6 +29,7 @@
 
 .greeting {
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .greeting-text {
@@ -48,8 +43,7 @@
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--text-primary);
-  line-height: 1.2;
-  margin: 10px 0;
+  line-height: 0.2;
 }
 
 .role-container {
@@ -82,6 +76,7 @@
 
 .intro-description {
   font-size: 1.25rem;
+  text-align: justify;
   line-height: 1.8;
   color: var(--text-secondary);
   max-width: 600px;

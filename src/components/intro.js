@@ -17,7 +17,6 @@ const Intro = () => {
 
   return (
     <div id="intro" className="intro-section">
-      <div className="intro-container">
         <div className="intro-content">
           <div className="intro-text">
             <div className="greeting">
@@ -25,46 +24,50 @@ const Intro = () => {
                 text="Hello,"
                 className="greeting-text"
                 delay={150}
-                animationFrom={{ opacity: 0, transform: "translate3d(0,50px,0)" }}
+                animationFrom={{
+                  opacity: 0,
+                  transform: "translate3d(0,50px,0)",
+                }}
                 animationTo={{ opacity: 1, transform: "translate3d(0,0,0)" }}
                 easing="easeOutCubic"
                 threshold={0.2}
                 rootMargin="-50px"
                 onLetterAnimationComplete={handleAnimationComplete}
               />
-            </div>
-            
-            <div className="name-container">
-              <BlurText
-                className="name-text"
-                text="I'm Atharv Tambekar"
-                delay={200}
-                animateBy="words"
-                direction="top"
-                onAnimationComplete={handleAnimationComplete}
-              />
-            </div>
 
-            <div className="role-container">
-              <div className="div-rotating-text">
-                <RotatingText
-                  texts={[
-                    "MERN Stack Developer",
-                    "React Native Developer",
-                    "Computer Science Engineer",
-                    "Full Stack Developer",
-                  ]}
-                  mainClassName="rotating-text-main"
-                  staggerFrom={"last"}
-                  initial={{ y: "400%" }}
-                  animate={{ y: 0 }}
-                  className="skill-text"
-                  exit={{ y: "-400%" }}
-                  staggerDuration={0.025}
-                  splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
-                  transition={{ type: "spring", damping: 30, stiffness: 400 }}
-                  rotationInterval={5000}
+              <div className="name-container">
+                <BlurText
+                  className="name-text"
+                  text="I'm Atharv Tambekar"
+                  delay={200}
+                  animateBy="words"
+                  direction="top"
+                  onAnimationComplete={handleAnimationComplete}
                 />
+              </div>
+
+              <div className="role-container">
+                <div className="div-rotating-text">
+                  <RotatingText
+                    texts={[
+                      "Software Engineer/Developer",
+                      "MERN Stack Developer",
+                      "React Native Developer",
+                      "Computer Science Engineer",
+                      "Full Stack Developer",
+                    ]}
+                    mainClassName="rotating-text-main"
+                    staggerFrom={"last"}
+                    initial={{ y: "400%" }}
+                    animate={{ y: 0 }}
+                    className="skill-text"
+                    exit={{ y: "-400%" }}
+                    staggerDuration={0.025}
+                    splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                    transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                    rotationInterval={5000}
+                  />
+                </div>
               </div>
             </div>
 
@@ -117,7 +120,11 @@ const Intro = () => {
           <div className="intro-image-container">
             <div className="image-wrapper">
               <div className="image-glow"></div>
-              <img className="intro-image" src={introImg} alt="Atharv Tambekar" />
+              <img
+                className="intro-image"
+                src={introImg}
+                alt="Atharv Tambekar"
+              />
               <div className="floating-badge badge-1">
                 <CodeIcon className="badge-icon1" />
                 <span>Developer</span>
@@ -125,7 +132,6 @@ const Intro = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

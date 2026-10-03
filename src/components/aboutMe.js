@@ -46,7 +46,7 @@ const AboutMe = () => {
             <div className="stat-card">
               <CakeIcon className="stat-icon" />
               <div className="stat-content">
-                <h4 className="stat-value">20</h4>
+                <h4 className="stat-value">21</h4>
                 <p className="stat-label">Years Old</p>
               </div>
             </div>
@@ -61,7 +61,7 @@ const AboutMe = () => {
               <TranslateIcon className="stat-icon" />
               <div className="stat-content">
                 <h4 className="stat-value">3</h4>
-                <p className="stat-label">Languages: EN | MR | HI</p>
+                <p className="stat-label">Languages: EN | MR | HI | IT | GR</p>
               </div>
             </div>
           </div>

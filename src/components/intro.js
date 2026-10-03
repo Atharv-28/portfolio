@@ -125,10 +125,6 @@ const Intro = () => {
                 src={introImg}
                 alt="Atharv Tambekar"
               />
-              <div className="floating-badge badge-1">
-                <CodeIcon className="badge-icon1" />
-                <span>Developer</span>
-              </div>
             </div>
           </div>
         </div>

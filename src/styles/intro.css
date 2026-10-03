@@ -222,45 +222,10 @@
 }
 
 .intro-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
-/* Floating Badges */
-.floating-badge {
-  position: absolute;
-  background: var(--bg-secondary);
-  padding: 12px 20px;
-  border-radius: 50px;
-  box-shadow: 0 10px 30px var(--shadow-intense);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-  color: var(--text-primary);
-  z-index: 3;
-  animation: float 3s ease-in-out infinite;
-}
 
-.badge-1 {
-  top: 10%;
-  right: -10%;
-  animation-delay: 0s;
-}
-
-.badge-2 {
-  bottom: 15%;
-  left: -10%;
-  animation-delay: 1.5s;
-}
-
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
 
 .badge-icon {
   color: var(--primary-color);

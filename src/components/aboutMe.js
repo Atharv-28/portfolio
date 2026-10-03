@@ -21,7 +21,7 @@ const AboutMe = () => {
           <div className="about-me-intro">
             <div className="role-badge">
               <CodeIcon className="badge-icon" />
-              <span>Full Stack Developer</span>
+              <span>Software Engineer/Developer</span>
             </div>
             <h3 className="about-me-subtitle">
               MERN Stack & React Native Developer
@@ -60,7 +60,7 @@ const AboutMe = () => {
             <div className="stat-card">
               <TranslateIcon className="stat-icon" />
               <div className="stat-content">
-                <h4 className="stat-value">3</h4>
+                <h4 className="stat-value">5</h4>
                 <p className="stat-label">Languages: EN | MR | HI | IT | GR</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ const AboutMe = () => {
         <div className="about-me-actions">
           <a
             className="about-me-button primary"
-            href="https://drive.google.com/file/d/1GV4U0nl2pot1pIa-bqJtoC07n92RzF0s/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Tu3PhLKDnXApWcHO9FFtod1tvAt_nppd/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

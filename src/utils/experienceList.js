@@ -7,10 +7,9 @@ const ExperienceList = [
     duration: "Feb 2026 - Apr 2026",
     period: "2 months",
     description: [
-      "Maintained & updated mobile applications and web platforms using React and React-Native technologies.",
-      "Collaborated with cross-functional teams to design and implement new features.",
-      "Optimized application performance and resolved critical issues to ensure smooth user experience.",
-      "Participated in code reviews and contributed to improving coding standards and best practices within the team."
+      "Designed and deployed cross-platform mobile features using React Native and Expo for Android and iOS within Agile development sprints, contributing to 3 production releases.",
+      "Integrated RESTful APIs with Express.js and MongoDB and containerized development workflows using Docker, reducing deployment inconsistencies by 40%.",
+      "Implemented Redux-based state management to centralize application state, reducing redundant API calls by 40% and improving overall application performance by 25%."
     ],
     certificateLink: "https://drive.google.com/file/d/1VfjpQUG_9HBK3_-2-_F9-8qQ5v38Ag0k/view?usp=sharing",
     certificateText: "Letter of Experience",
@@ -23,10 +22,8 @@ const ExperienceList = [
     duration: "Feb 2026 - May 2026",
     period: "3 months",
     description: [
-      "Collaborated with a team of developers to build and enhance web applications using React JS.",
-      "Implemented responsive UI components, ensuring cross-browser compatibility and optimal performance.",
-        "Conducted code reviews and contributed to improving coding standards and best practices within the team.",
-        "Assisted in debugging and resolving issues, enhancing the overall user experience of the applications.",
+      "Built responsive and accessible web interfaces using React.js and Tailwind CSS, improving frontend performance and user experience by 20% within a CI/CD pipeline using GitHub Actions.",
+      "Implemented React Router with JWT-based authentication and authorization, reducing session-related errors by 35% and securing all protected application routes.",
     ],
     certificateLink: "https://drive.google.com/file/d/12_Hi8M-BQ9ifMMlY75edFGQWCOdv3JE9/view?usp=sharing",
     certificateText: "Letter of Experience",

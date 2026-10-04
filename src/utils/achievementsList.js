@@ -8,12 +8,11 @@ const AchievementsList = [
     category: "Competitive Programming",
     description: "Solved the problem statements with optimal solutions in a limited time frame, demonstrating strong coding skills and algorithmic thinking.",
     certificateImage: "/assets/achievements/decodeDerby.jpg",
-    icon: "🏆",
     status: "Winner"
   },
   {
     id: 2,
-    competitionName: "Technotsav 2k25",
+    competitionName: "App Genius",
     year: "2025",
     rank: "3rd Place",
     skillsRequired: ["React-Native", "APP Development", "API Development"],
@@ -25,18 +24,28 @@ const AchievementsList = [
   },
   {
     id: 3,
-    competitionName: "Technotsav 2k24",
+    competitionName: "Dynamic Web Design",
     year: "2024",
     rank: "2nd Place",
     skillsRequired: ["React", "SEO", "Social Impact", "UI/UX"],
     category: "Web Development",
     description: "Created a single-page application for mental health awareness.",
     certificateImage: "/assets/achievements/dynamicWeb.jpg",
-    icon: "🥈",
     status: "Runner-up"
   },
   {
     id: 4,
+    competitionName: "Game Craft ",
+    year: "2026",
+    rank: "3rd Place",
+    skillsRequired: ["Unity", "C#", "Game Design", "Level Design"],
+    category: "Game Development",
+    description: "Developed a 2D platformer game with engaging gameplay and visually appealing graphics.",
+    certificateImage: "/assets/achievements/gameCraft.jpg",
+    status: "Winner"
+  },
+  {
+    id: 5,
     competitionName: "Web Design Competition",
     year: "2022",
     rank: "3rd",
@@ -44,11 +53,10 @@ const AchievementsList = [
     category: "Web Development",
     description: "Replicated complex web designs into responsive and interactive websites, showcasing strong front-end development skills.",
     certificateImage: "/assets/achievements/webDesign.jpg",
-    icon: "🥉",
     status: "Third Place"
   },
   {
-    id: 5,
+    id: 6,
     competitionName: "C++ Competition ",
     year: "2022",
     rank: "1st Place",
@@ -56,11 +64,10 @@ const AchievementsList = [
     category: "Competitive Programming",
     description: "Solved problems using Object-Oriented Programming concepts in C++.",
     certificateImage: "/assets/achievements/cpp.jpg",
-    icon: "🏆",
     status: "Winner"
   },
   {
-    id: 6,
+    id: 7,
     competitionName: "Prabal 48-HOUR HACKATHON",
     year: "2025",
     rank: "Top 20",
@@ -68,11 +75,10 @@ const AchievementsList = [
     category: "Web Development",
     description: "Built a platform to add or check online products for eco-friendliness using web scraping and APIs.",
     certificateImage: "/assets/achievements/Prabal.png",
-    icon: "⭐",
     status: "Top Performer in PS"
   },
   {
-    id: 7,
+    id: 8,
     competitionName: "Debate Competition 2k25",
     year: "2025",
     rank: "1st Place",
@@ -80,11 +86,10 @@ const AchievementsList = [
     category: "Soft Skills",
     description: "Won in a debate competition showcasing strong communication and critical thinking skills.",
     certificateImage: "/assets/achievements/Debate2k25.png",
-    icon: "🏆",
     status: "Winner"
   },
   {
-    id: 8,
+    id: 9,
     competitionName: "Argue-Mind",
     year: "2025",
     rank: "Technical Head",
@@ -92,7 +97,6 @@ const AchievementsList = [
     category: "Soft Skills",
     description: "Built a platform to conduct online debates and quizzes, enhancing users' critical thinking and managed the technical team effectively.",
     certificateImage: "/assets/achievements/ArgueMan.png",
-    icon: "⭐",
     status: "Management"
   }
 ];

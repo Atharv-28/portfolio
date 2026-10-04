@@ -142,29 +142,6 @@
     var(--shadow-primary-medium) 0px 0px 0px 1px;
 }
 
-.achievement-badge {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--overlay-medium);
-  padding: 8px 15px;
-  border-radius: 20px;
-  box-shadow: var(--shadow-strong) 0px 4px 12px;
-  z-index: 2;
-}
-
-.achievement-icon {
-  font-size: 1.2rem;
-}
-
-.achievement-status {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--primary-color);
-}
 
 .achievement-image {
   position: relative;

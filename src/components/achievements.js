@@ -40,8 +40,7 @@ const Achievements = () => {
     <div id="achievements" className="achievements-section">
       <div className="achievements-container">
         <div className="achievements-header">
-          <h2>🏆 Achievements & Competitions</h2>
-          <p>Showcasing my journey through various competitions and recognitions</p>
+          <h2>Achievements & Competitions</h2>
         </div>
 
         {isLoading ? (
@@ -73,10 +72,6 @@ const Achievements = () => {
                   style={{ animationDelay: `${index * 0.1}s` }}
                   onClick={() => openModal(achievement)}
                 >
-              <div className="achievement-badge">
-                <span className="achievement-icon">{achievement.icon}</span>
-                <span className="achievement-status">{achievement.status}</span>
-              </div>
               
               <div className="achievement-image">
                 <img 

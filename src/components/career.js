@@ -30,13 +30,13 @@ const Career = () => {
       <div className="tab-content">
         {activeTab === "education" && (
           <div className="edu">
-            <h2>Education</h2>
+            {/* <h2>Education</h2> */}
             <EduFlex className="edu-flex" />
           </div>
         )}
         {activeTab === "experience" && (
           <div className="edu">
-            <h2>Experience</h2>
+            {/* <h2>Experience</h2> */}
             <ExpAccordian />
           </div>
         )}

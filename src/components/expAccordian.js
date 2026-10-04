@@ -28,6 +28,7 @@ const ExpAccordian = () => {
                 </div>
                 <div>
                   <p>{experience.duration}</p>
+                  <p>{experience.period}</p>
                 </div>
               </div>
             </AccordionSummary>

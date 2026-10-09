@@ -1,17 +1,23 @@
   
-  .project-card {
-    width: 40%;
-    background-color: var(--bg-secondary);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px var(--shadow-strong);
-  }
-
   .proFlex {
     margin-top: 4vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    width: 100%;
+    padding: 10px 4px 16px;
+    box-sizing: border-box;
+  }
+
+  .proFlex .project-card {
+    flex: 0 0 calc(50% - 10px);
+    box-sizing: border-box;
+    margin: 0;
+    scroll-snap-align: start;
   }
   
   .project-icon {
@@ -45,7 +51,11 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;  }
   
     @media screen and (max-width: 600px) {
-      .project-card {
-        width: 90%;
+      .proFlex {
+        gap: 12px;
+      }
+
+      .proFlex .project-card {
+        flex-basis: calc(50% - 6px);
       }
     }

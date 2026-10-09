@@ -161,7 +161,7 @@
 .grade-badge {
   /* background: var(--gradient-purple); */
   background-color: var(--primary-color);
-  border-radius: 25px;
+  border-radius: 15px;
   padding: 12px 10px;
   box-shadow: 0 8px 20px var(--shadow-primary-strong);
   display: flex;

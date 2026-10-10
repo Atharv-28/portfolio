@@ -21,7 +21,7 @@ const AboutMe = () => {
           <div className="about-me-intro">
             <div className="role-badge">
               <CodeIcon className="badge-icon" />
-              <span>Software Engineer/Developer</span>
+              <span className="badge-txt">Software Engineer/Developer</span>
             </div>
             <h3 className="about-me-subtitle">
               MERN Stack & React Native Developer

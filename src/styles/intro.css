@@ -400,32 +400,43 @@
 
 @media (max-width: 768px) {
   .intro-section {
-    padding: 40px 15px;
     min-height: auto;
     width: 85vw;
+    padding: 0;
+    margin-top: -20px;
   }
 
   .intro-content {
-    gap: 40px;
-    padding: 0;
+    padding: 0px;
+    width: 100%;
+    margin-top: -10px;
+    flex-direction: column;
   }
 
   .greeting{
     width: 100%;
     text-align: left;
-    margin-left: 12vw;
   }
   .greeting-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     align-self: flex-start;
+
   }
 
   .name-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    align-self: flex-start;
+    margin-left: -10px;
+    text-align: left;
+
   }
 
   .skill-text {
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .role-container{
+      justify-content: flex-start;
   }
 
   .div-rotating-text {
@@ -435,6 +446,7 @@
 
   .intro-description {
     font-size: 1rem;
+    text-align: justify;
     padding: 0 10px;
   }
 

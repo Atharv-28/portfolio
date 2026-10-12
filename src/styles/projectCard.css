@@ -87,6 +87,13 @@
     .project-description {
       font-size: 0.8rem;
     }
+
+    .project-card {
+      padding: 15px;
+      justify-self: center;
+      align-self: center;
+      min-width: 80vw;
+    }
     
   }
 
